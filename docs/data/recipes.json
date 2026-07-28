@@ -326,5 +326,292 @@
       "The reel does not display cooking times. The timing and 3 cups of water come from Korean Bapsang's recipe, whose ingredient list matches the caption exactly.",
       "The creator describes this as an easy one-pot recipe."
     ]
+  },
+  {
+    "slug": "coconut-red-lentil-curry-beef",
+    "title": "Creamy Coconut Red Lentil Curry with Ground Beef",
+    "subtitle": "High-protein one-pot meal prep",
+    "creator": "Drew Eats",
+    "platform": "Instagram",
+    "sourceUrl": "https://www.instagram.com/reel/DZf3mGbhHCX/",
+    "image": "assets/coconut-red-lentil-curry-beef.jpg",
+    "imagePosition": "50% 60%",
+    "duration": "0:40 video",
+    "time": "About 40 minutes",
+    "tags": [
+      "Curry",
+      "Beef",
+      "One-pot",
+      "Meal prep",
+      "Dinner"
+    ],
+    "confidence": "Medium",
+    "ingredients": [
+      "Ground beef (quantity not shown)",
+      "Neutral oil for cooking (quantity not shown)",
+      "Diced onion (quantity not shown)",
+      "Diced carrot (quantity not shown)",
+      "Curry powder (quantity not shown)",
+      "Turmeric (from caption; quantity not shown)",
+      "Crushed tomatoes (quantity not shown)",
+      "Water (quantity not shown), plus a splash to loosen at the end",
+      "Red lentils (quantity not shown)",
+      "Coconut milk (quantity not shown)",
+      "Black pepper and seasoning, to taste",
+      "Chopped fresh herbs to garnish (parsley or cilantro; not named on screen)",
+      "Cooked rice, to serve"
+    ],
+    "steps": [
+      "Brown the ground beef in a lightly oiled pan, breaking it up as it cooks, then scoop it out and set aside.",
+      "In the same pan, sweat the diced onions and carrots until softened.",
+      "Push the vegetables aside to make a little pool of oil in the center, then add the curry powder and turmeric and fry to bloom the aromatics.",
+      "Return the browned beef to the pan along with crushed tomatoes, water, red lentils and coconut milk; stir everything together.",
+      "Cover and simmer on medium-low for about 30 minutes, until the lentils are tender and the curry has thickened.",
+      "Taste and adjust seasoning, adding a splash of water if you want it looser.",
+      "Portion over cooked rice; garnish with chopped herbs. It keeps well and tastes even better the next day."
+    ],
+    "evidence": [
+      "The creator's caption names the dish, states it delivers 30g protein and 10g fiber, and highlights blooming the curry powder and turmeric in oil before adding the rest.",
+      "The video directly shows browning and removing the beef, sweating onion and carrot, blooming curry powder in an oil pool, then adding crushed tomatoes, water, red lentils and coconut milk.",
+      "The on-screen captions state the curry is covered and simmered on medium-low for about 30 minutes.",
+      "No ingredient quantities are shown on screen; amounts are left unstated rather than inferred. The green garnish is not named on screen."
+    ]
+  },
+  {
+    "slug": "one-pot-tandoori-chicken-rice",
+    "title": "One-Pot Tandoori Chicken and Rice",
+    "subtitle": "Cooked in chicken bone broth",
+    "creator": "Tiv",
+    "platform": "Instagram",
+    "sourceUrl": "https://www.instagram.com/reel/DVebWnQkh6O/",
+    "image": "assets/one-pot-tandoori-chicken-rice.jpg",
+    "imagePosition": "50% 45%",
+    "duration": "0:25 video",
+    "time": "About 30 minutes plus overnight marinade",
+    "tags": [
+      "Indian",
+      "Chicken",
+      "One-pot",
+      "Rice",
+      "Dinner"
+    ],
+    "confidence": "Medium",
+    "ingredients": [
+      "Chicken, marinated overnight in Greek yogurt and Indian spices (quantity not shown)",
+      "Butter or ghee (a pat; quantity not shown)",
+      "Sliced red onion (quantity not shown)",
+      "Chopped tomatoes (quantity not shown)",
+      "Ground Indian spices (blend and quantity not shown)",
+      "White rice, appears basmati (quantity not shown)",
+      "Chicken bone broth (quantity not shown)",
+      "Fresh cilantro to garnish"
+    ],
+    "steps": [
+      "Marinate the chicken overnight in Greek yogurt and Indian spices.",
+      "Melt a pat of butter or ghee in a pan and sear the marinated chicken on both sides, then remove it and set aside.",
+      "Add the sliced onions to the reserved pan juices and cook for about 5 minutes.",
+      "Stir in the chopped tomatoes and Indian spices.",
+      "Add the rice, then pour in the chicken bone broth.",
+      "Nestle the seared chicken back in, cover, and cook for about 15 minutes until the rice is done.",
+      "Finish with a generous scatter of fresh cilantro and serve."
+    ],
+    "evidence": [
+      "The creator's caption names the dish as one-pot tandoori chicken and rice cooked in bone broth.",
+      "The video's rolling narration captions state the chicken was marinated overnight in Greek yogurt and Indian spices, the onions were cooked for five minutes before adding tomatoes and spices, the rice was cooked in bone broth, and the chicken was returned and covered for fifteen minutes.",
+      "The video directly shows searing and removing the chicken, sauteing onion, adding tomatoes and spice, adding rice and broth, returning the chicken, covering, and garnishing with cilantro.",
+      "No ingredient quantities are shown on screen. The chicken cut and exact spice blend are not specified."
+    ]
+  },
+  {
+    "slug": "coconut-chicken-sweet-potato",
+    "title": "Fragrant Coconut Chicken and Sweet Potato",
+    "subtitle": "NYT Cooking recipe by Kay Chun",
+    "creator": "Ryan Miller",
+    "platform": "Instagram",
+    "sourceUrl": "https://www.instagram.com/reel/DV4aboaDqGw/",
+    "image": "assets/coconut-chicken-sweet-potato.jpg",
+    "imagePosition": "50% 55%",
+    "duration": "0:38 video",
+    "time": "About 30 minutes",
+    "tags": [
+      "Asian",
+      "Chicken",
+      "One-pan",
+      "Dinner"
+    ],
+    "confidence": "High",
+    "ingredients": [
+      "3 tbsp neutral oil, divided",
+      "1 medium sweet potato, diced 1/4 inch",
+      "1/2 cup scallions, minced",
+      "3 cloves garlic, minced",
+      "1 tbsp ginger, minced",
+      "1 lb ground chicken (dark meat if possible)",
+      "1 cup full-fat coconut milk",
+      "4 oz baby spinach",
+      "2 tbsp lime juice",
+      "1/4 cup cilantro",
+      "Salt and pepper",
+      "Cooked rice and hot sauce, to serve"
+    ],
+    "steps": [
+      "Heat 1 tbsp oil in a skillet over medium heat. Add the sweet potato, season with salt and pepper, cover, and cook about 8 minutes until tender, then set aside.",
+      "Add the remaining 2 tbsp oil, the scallions, garlic and ginger, and saute about 30 seconds.",
+      "Add the ground chicken and brown, about 5 minutes.",
+      "Stir in the coconut milk and the cooked sweet potatoes and simmer 2 to 3 minutes until slightly thickened.",
+      "Fold in the spinach until wilted, then remove from the heat.",
+      "Stir in the lime juice, cilantro and final seasonings.",
+      "Serve over rice with extra garnish and hot sauce."
+    ],
+    "evidence": [
+      "The creator's caption reproduces the full New York Times Cooking recipe by Kay Chun, including all ingredient quantities and the complete method.",
+      "The video directly confirms the method: dicing and cooking the sweet potato, mincing and sauteing scallions/garlic/ginger, browning the ground chicken, a creamy coconut simmer, folding in spinach, and a cilantro finish served over rice.",
+      "Quantities come from the creator's written caption; the video itself shows no ingredient overlays. Lime juice and hot sauce are listed in the caption but are not shown being added on camera."
+    ]
+  },
+  {
+    "slug": "lemon-chicken-orzo",
+    "title": "One-Pan Lemon Chicken Orzo",
+    "subtitle": "Healthy 30-minute dinner",
+    "creator": "Mallory Brown, RDN",
+    "platform": "Instagram",
+    "sourceUrl": "https://www.instagram.com/reel/DTax11RETXw/",
+    "image": "assets/lemon-chicken-orzo.jpg",
+    "imagePosition": "50% 40%",
+    "duration": "0:14 video",
+    "time": "About 30 minutes",
+    "tags": [
+      "Mediterranean",
+      "Chicken",
+      "One-pan",
+      "Pasta",
+      "Dinner"
+    ],
+    "confidence": "High",
+    "ingredients": [
+      "1 1/2 lb boneless, skinless chicken breast, cut into bite-sized pieces",
+      "1 tbsp extra-virgin olive oil",
+      "1/2 large yellow onion (or 1 small), diced",
+      "3 cloves garlic, minced",
+      "1 tsp paprika",
+      "1 tsp dried oregano",
+      "1 tsp garlic powder",
+      "1/2 tsp kosher salt (start with 1/4 tsp if using fine table salt), more to taste",
+      "1/4 tsp black pepper",
+      "2 cups chicken broth",
+      "1 cup orzo pasta (dry)",
+      "2 cups spinach",
+      "1/4 cup Greek yogurt",
+      "1/2 cup grated parmesan cheese",
+      "2 to 4 tbsp lemon juice (1 to 2 large lemons), start with 2 tbsp",
+      "1 tsp lemon zest"
+    ],
+    "steps": [
+      "Heat a large skillet over medium heat. Add the olive oil and, once hot, add the onion. Saute 3 to 4 minutes.",
+      "Add the chicken, garlic and seasonings, making sure the chicken is coated. Cook 3 to 4 minutes on one side undisturbed, then flip and cook another 3 to 4 minutes until cooked through to 165F (75C).",
+      "Add the orzo and broth, stir well, and bring to a boil. Lower the heat, cover, and simmer on low 12 minutes, stirring occasionally so the orzo does not stick.",
+      "Remove the lid and simmer another 2 to 4 minutes until the orzo is cooked; there will still be excess liquid.",
+      "Stir in the spinach until it wilts. Turn off the heat and stir in the Greek yogurt, parmesan, lemon juice and zest. Add salt as needed.",
+      "Let it sit briefly; the orzo will keep absorbing the remaining liquid as it rests."
+    ],
+    "evidence": [
+      "The creator, a registered dietitian, provides the full recipe with quantities, directions, storage and nutrition in the caption, plus a link to her website (mallorythedietitian.com).",
+      "The video confirms the visible sequence: sauteing onion, adding cubed chicken with seasoning, adding dry orzo and broth to simmer, wilting in spinach, and stirring in grated parmesan.",
+      "Quantities come from the creator's written recipe. Greek yogurt, lemon juice and zest are listed in the caption but are not distinctly shown being added on camera."
+    ]
+  },
+  {
+    "slug": "one-pot-pumpkin-mushroom-rice",
+    "title": "One-Pot Pumpkin Mushroom Rice",
+    "subtitle": "Vegetarian pot or rice-cooker meal",
+    "creator": "Jeeca (The Foodie Takes Flight)",
+    "platform": "Instagram",
+    "sourceUrl": "https://www.instagram.com/reel/DQE60voCTC5/",
+    "image": "assets/one-pot-pumpkin-mushroom-rice.jpg",
+    "imagePosition": "50% 55%",
+    "duration": "0:54 video",
+    "time": "Not stated on screen",
+    "tags": [
+      "Asian",
+      "Vegetarian",
+      "One-pot",
+      "Rice",
+      "Dinner"
+    ],
+    "confidence": "Medium",
+    "ingredients": [
+      "Dried shiitake mushrooms, rehydrated (soaking water reserved) (quantity not shown)",
+      "Fresh shimeji/beech mushrooms (quantity not shown)",
+      "Pumpkin, peeled and diced small (quantity not shown)",
+      "Scallions/green onions, sliced (quantity not shown)",
+      "White short-grain rice, rinsed (quantity not shown)",
+      "Cooking oil (quantity not shown)",
+      "Dark seasoning sauce, appears to be soy sauce (quantity not shown)",
+      "Reserved mushroom soaking water plus broth to cook the rice (quantity not shown)",
+      "Chili oil, to finish",
+      "Sliced green onions, to finish"
+    ],
+    "steps": [
+      "Rehydrate the dried shiitake mushrooms in water; reserve the flavorful soaking liquid to help cook the rice. Slice the rehydrated shiitake.",
+      "Saute the diced pumpkin with some scallions until lightly caramelized, then remove and set aside.",
+      "In the same pot, saute the sliced shiitake and shimeji mushrooms.",
+      "Rinse the rice, then add it to the bottom of the pot with the seasonings (dark soy-style sauce).",
+      "Pour in the reserved mushroom soaking water and broth to cook the rice.",
+      "Layer the sauteed pumpkin and mushrooms over the rice, cover, and cook (time depends on whether you use a pot or a rice cooker).",
+      "Finish with chili oil and sliced green onions."
+    ],
+    "evidence": [
+      "The creator's caption describes an easy one-pot pumpkin mushroom rice that can be made in a pot or a rice cooker, and links to the full recipe on thefoodietakesflight.com.",
+      "The video directly shows rehydrating dried shiitake and reserving the soaking water, sauteing pumpkin with scallions separately from the mushrooms, rinsing the rice, layering rice with seasoning at the bottom, adding liquid, topping with pumpkin and mushrooms, covering to cook, and finishing with chili oil and green onions.",
+      "No ingredient quantities, timings, or heat levels are shown on screen. The dark seasoning appears to be soy sauce but is not labeled; the full detailed recipe is on the creator's linked website."
+    ]
+  },
+  {
+    "slug": "poached-chicken-shallot-oil",
+    "title": "Poached Chicken with Shallot Oil Sauce",
+    "subtitle": "Easy lazy-meal series",
+    "creator": "Herman at Home",
+    "platform": "Instagram",
+    "sourceUrl": "https://www.instagram.com/reel/DZaov0IBpKk/",
+    "image": "assets/poached-chicken-shallot-oil.jpg",
+    "imagePosition": "50% 30%",
+    "duration": "0:26 video",
+    "time": "Not stated on screen",
+    "tags": [
+      "Asian",
+      "Chicken",
+      "Rice",
+      "Dinner"
+    ],
+    "confidence": "Medium",
+    "ingredients": [
+      "Chicken, skin-on (quantity not shown)",
+      "Ginger, sliced (quantity not shown)",
+      "Scallions/green onions (quantity not shown)",
+      "Shallots (quantity not shown)",
+      "Shaoxing wine (quantity not shown)",
+      "Salt (quantity not shown)",
+      "Garlic (for the shallot oil; quantity not shown)",
+      "Cooking oil (for frying the shallot oil; quantity not shown)",
+      "Soy sauce (quantity not shown)",
+      "Oyster sauce (quantity not shown)",
+      "Water (quantity not shown)",
+      "Crispy fried shallots, sliced scallions and cucumber to serve",
+      "Cooked rice, to serve"
+    ],
+    "steps": [
+      "Simmer the chicken in water infused with ginger, scallions, shallot, Shaoxing wine and salt until cooked through.",
+      "Transfer the poached chicken to an ice bath to cool, then tear or shred it into pieces by hand.",
+      "For the shallot oil, fry sliced shallots, garlic and ginger in oil until golden, then set aside.",
+      "Combine the aromatic oil with soy sauce, oyster sauce and water to make the sauce.",
+      "Toss or coat the torn chicken with the shallot oil sauce.",
+      "Serve over rice with cucumber, topped with crispy fried shallots and sliced scallions."
+    ],
+    "evidence": [
+      "The creator's caption names the dish as poached chicken with a fragrant shallot oil sauce and calls it a quick, easy meal.",
+      "The video's on-screen captions state the chicken is simmered in water infused with ginger, scallions and shallot with Shaoxing wine and salt, and that the sauce combines the fried shallot/garlic/ginger oil with soy sauce, oyster sauce and water.",
+      "The video directly shows poaching the chicken, an ice bath, tearing the chicken by hand, frying shallots/garlic/ginger for the oil, mixing the sauce, and plating over rice with cucumber, crispy shallots and scallions.",
+      "No ingredient quantities, poaching time, or heat levels are shown on screen."
+    ]
   }
 ]
