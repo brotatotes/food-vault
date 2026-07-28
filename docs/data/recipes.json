@@ -270,5 +270,61 @@
       "No ingredient quantities or liquid ratios are supplied.",
       "The final texture is intended to be thick, soft and spoonable."
     ]
+  },
+  {
+    "slug": "korean-braised-chicken-jjimdak",
+    "title": "Korean Braised Chicken",
+    "subtitle": "Jjimdak · 찜닭",
+    "creator": "Angela | SF Food & Lifestyle",
+    "platform": "Instagram",
+    "sourceUrl": "https://www.instagram.com/reel/DbTYeUQP_Og/",
+    "image": "assets/korean-braised-chicken-jjimdak.jpg",
+    "imagePosition": "50% 52%",
+    "duration": "0:10 video",
+    "time": "About 55 minutes",
+    "tags": [
+      "Korean",
+      "Chicken",
+      "One-pot",
+      "Noodles",
+      "Dinner"
+    ],
+    "confidence": "Medium-high",
+    "ingredients": [
+      "2.5 to 3 lb chicken thighs",
+      "3 oz sweet potato starch noodles (dangmyeon)",
+      "2 medium white or Yukon Gold potatoes, about 10 oz",
+      "1 medium carrot",
+      "1/2 medium onion",
+      "3 to 4 mushroom caps, rehydrated dried shiitake or fresh mushrooms",
+      "2 scallions",
+      "2 to 3 dried whole red chili peppers, or 4 to 5 small ones",
+      "1 to 2 fresh chili peppers or jalapeños, optional",
+      "2 tbsp minced garlic",
+      "1 tsp grated ginger",
+      "3 cups water",
+      "1/2 cup soy sauce",
+      "2 tbsp oyster sauce, or additional soy sauce",
+      "2 tbsp rice wine, mirim or mirin",
+      "2 tbsp dark brown sugar, or regular sugar",
+      "3 to 4 tbsp corn syrup, rice syrup or oligo syrup, or 2 to 3 tbsp honey",
+      "1/4 tsp black pepper",
+      "1 tbsp sesame oil",
+      "1 tsp sesame seeds"
+    ],
+    "steps": [
+      "Soak the sweet potato starch noodles in warm water for about 30 minutes, then drain well.",
+      "Trim excess fat from the chicken. Cut the potatoes into 1 1/2-inch chunks and soak them in water. Cut the carrot, mushrooms and onion into bite-size pieces.",
+      "Place the chicken in a large pot and add 3 cups water. Add the soy sauce, oyster sauce, rice wine, sugar, syrup or honey, and black pepper. Bring to a boil uncovered over high heat. Boil for about 10 minutes and skim off the foam.",
+      "Add the potatoes, carrot, mushrooms, onion, dried chilies, garlic and ginger. Cover and cook for 8 to 10 minutes.",
+      "Gently mix in the fresh chilies, scallions and drained noodles. Cook uncovered for about 3 minutes, until the noodles are tender and glossy.",
+      "Stir in the sesame oil, sprinkle with sesame seeds and serve hot."
+    ],
+    "evidence": [
+      "The reel caption directly supplies the complete ingredient list and quantities except for the 3 cups of cooking water.",
+      "The video directly shows chicken, water, braising sauce, vegetables, mushrooms and noodles being added in that order.",
+      "The reel does not display cooking times. The timing and 3 cups of water come from Korean Bapsang's recipe, whose ingredient list matches the caption exactly.",
+      "The creator describes this as an easy one-pot recipe."
+    ]
   }
 ]
