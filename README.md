@@ -2,7 +2,7 @@
 
 Food Vault turns public cooking reels into source-linked draft recipes that are easier to search and cook from.
 
-This repository contains the first prototype. It currently includes two Instagram recipes, a searchable static website, and a small build-time validator.
+This repository contains the first prototype. It currently includes six source-linked recipes, a searchable static website, and a small build-time validator.
 
 ## Local preview
 

@@ -36,7 +36,7 @@ function renderCards() {
   grid.innerHTML = recipes.map(recipe => `
     <article class="card" data-slug="${escapeHtml(recipe.slug)}" tabindex="0" role="button" aria-label="Open ${escapeHtml(recipe.title)}">
       <div class="card-image">
-        <img src="${escapeHtml(recipe.image)}" alt="${escapeHtml(recipe.title)}" loading="lazy">
+        <img src="${escapeHtml(recipe.image)}" alt="${escapeHtml(recipe.title)}" loading="lazy" style="object-position:${escapeHtml(recipe.imagePosition || "center 55%")}">
         <span class="source-pill">${escapeHtml(recipe.platform)} · ${escapeHtml(recipe.creator)}</span>
       </div>
       <div class="card-body">
@@ -58,7 +58,7 @@ function openRecipe(slug) {
   const recipe = state.recipes.find(item => item.slug === slug);
   if (!recipe) return;
   detail.innerHTML = `
-    <section class="detail-hero" style="background-image:url('${escapeHtml(recipe.image)}')">
+    <section class="detail-hero" style="background-image:url('${escapeHtml(recipe.image)}');background-position:${escapeHtml(recipe.imagePosition || "center 55%")} ">
       <div class="detail-title">
         <p class="eyebrow">${escapeHtml(recipe.platform)} · ${escapeHtml(recipe.creator)}</p>
         <h2>${escapeHtml(recipe.title)}</h2>

@@ -9,7 +9,12 @@
     "image": "assets/beef-potato-stew.jpg",
     "duration": "1:52 video",
     "time": "About 2 hours",
-    "tags": ["Chinese", "Beef", "Dinner", "Stew"],
+    "tags": [
+      "Chinese",
+      "Beef",
+      "Dinner",
+      "Stew"
+    ],
     "confidence": "High",
     "ingredients": [
       "500 g beef rib fingers or stewing beef",
@@ -45,7 +50,8 @@
       "The reel gives both ordinary-pot and pressure-cooker timings.",
       "The spoon size for salt is not specified.",
       "The precise boundary between the beef and potato cooking stages is reconstructed from sampled frames."
-    ]
+    ],
+    "imagePosition": "45% 42%"
   },
   {
     "slug": "five-treasure-red-porridge",
@@ -57,7 +63,12 @@
     "image": "assets/five-treasure-porridge.jpg",
     "duration": "0:39 video",
     "time": "Until beans are tender",
-    "tags": ["Chinese", "Porridge", "Sweet", "Plant-based"],
+    "tags": [
+      "Chinese",
+      "Porridge",
+      "Sweet",
+      "Plant-based"
+    ],
     "confidence": "Medium",
     "ingredients": [
       "1/3 cup red or adzuki beans",
@@ -81,6 +92,183 @@
       "No cooking time, water ratio or burner setting is supplied.",
       "The sweetener appears to be rock sugar, but its label is not legible enough to confirm.",
       "The creator presents this as pre-period wellness food. That is context, not a medical claim made by Food Vault."
+    ],
+    "imagePosition": "50% 55%"
+  },
+  {
+    "slug": "cucumber-sandwiches",
+    "title": "Cucumber Sandwiches",
+    "subtitle": "Herbed cream cheese tea sandwiches",
+    "creator": "Cooking Classy · Jaclyn",
+    "platform": "Web",
+    "sourceUrl": "https://www.cookingclassy.com/cucumber-sandwiches/",
+    "image": "assets/cucumber-sandwiches.jpg",
+    "imagePosition": "50% 54%",
+    "duration": "4 servings",
+    "time": "20 minutes",
+    "tags": [
+      "Sandwich",
+      "Lunch",
+      "Vegetarian",
+      "No-cook"
+    ],
+    "confidence": "High",
+    "ingredients": [
+      "8 oz cream cheese, slightly softened",
+      "2 tbsp mayonnaise",
+      "2 tbsp minced fresh chives",
+      "2 tbsp minced fresh parsley",
+      "2 tbsp minced fresh dill",
+      "2 tsp lemon zest",
+      "1 tsp lemon juice",
+      "1/2 tsp finely minced garlic",
+      "Salt and black pepper, to taste",
+      "1 English cucumber, thinly sliced",
+      "8 to 10 slices fresh white, wheat or multigrain sandwich bread"
+    ],
+    "steps": [
+      "Whip the cream cheese with an electric hand mixer on medium-high until fluffy, about 2 minutes.",
+      "Fold in the mayonnaise, chives, parsley, dill, lemon zest, lemon juice and garlic. Season with salt and pepper.",
+      "Spread the cream cheese mixture over one side of every bread slice.",
+      "Cover half of the slices generously with cucumber. Top with the remaining bread, spread-side down.",
+      "Press lightly, trim the crusts if desired, and cut into halves or quarters. Serve immediately."
+    ],
+    "evidence": [
+      "This recipe is transcribed from the source site's structured recipe card rather than inferred from video.",
+      "The source recommends a heartier sandwich bread so the generous filling holds together and cuts cleanly.",
+      "English or Persian cucumbers help limit sogginess."
+    ]
+  },
+  {
+    "slug": "minced-meat-with-potatoes",
+    "title": "Minced Meat with Potatoes",
+    "subtitle": "肉沫土豆",
+    "creator": "Yomii Lim",
+    "platform": "Instagram",
+    "sourceUrl": "https://www.instagram.com/reel/DXRWwrIS1bC/",
+    "image": "assets/minced-meat-potatoes.jpg",
+    "imagePosition": "50% 36%",
+    "duration": "0:29 video",
+    "time": "5-minute simmer",
+    "tags": [
+      "Chinese",
+      "Pork",
+      "Chicken",
+      "Potato",
+      "Dinner"
+    ],
+    "confidence": "Medium",
+    "ingredients": [
+      "Potatoes, cut into small cubes, quantity not shown",
+      "Minced pork or chicken, quantity not shown",
+      "Salt and pepper, for marinating",
+      "Cooking oil",
+      "Minced garlic",
+      "Chopped scallion white",
+      "Small chilies, chopped",
+      "Water",
+      "Light soy sauce",
+      "Dark soy sauce",
+      "Cornstarch slurry",
+      "Cooked white rice, for serving"
+    ],
+    "steps": [
+      "Season the minced pork or chicken with salt and pepper.",
+      "Fry the cubed potatoes in oil until lightly golden. Remove and set aside.",
+      "Leave a little oil in the pan. Add the minced meat and stir-fry until fragrant.",
+      "Add the garlic, scallion white and chili. Stir-fry briefly.",
+      "Add water, return the fried potatoes, and season with light and dark soy sauce.",
+      "Cover and simmer for 5 minutes.",
+      "Stir in cornstarch slurry until the sauce thickens. Serve over rice."
+    ],
+    "evidence": [
+      "The reel names every ingredient but supplies no quantities.",
+      "The only exact cooking time shown is the covered 5-minute simmer.",
+      "Either minced pork or minced chicken is explicitly offered.",
+      "The amount and ratio of light and dark soy sauce must be adjusted to taste."
+    ]
+  },
+  {
+    "slug": "mushroom-goji-steamed-chicken",
+    "title": "Mushroom Goji Steamed Chicken",
+    "subtitle": "Chicken steamed with shiitake, jujube and vermicelli",
+    "creator": "Little kitchen🌿",
+    "platform": "Instagram",
+    "sourceUrl": "https://www.instagram.com/reel/DXDmjdmjFZr/",
+    "image": "assets/mushroom-goji-steamed-chicken.jpg",
+    "imagePosition": "50% 62%",
+    "duration": "0:39 video",
+    "time": "About 50 minutes",
+    "tags": [
+      "Chinese",
+      "Chicken",
+      "Steamed",
+      "Dinner"
+    ],
+    "confidence": "Medium-high",
+    "ingredients": [
+      "Chicken, amount and cut not specified",
+      "Dried shiitake mushrooms, amount not shown",
+      "Jujubes or red dates, amount not shown",
+      "Goji berries, amount not shown",
+      "Hot water and salt, for brining",
+      "Reserved shiitake soaking water",
+      "Salt, to taste",
+      "Chicken bouillon, to taste",
+      "Vermicelli, amount not shown"
+    ],
+    "steps": [
+      "Soak the shiitake mushrooms and goji berries in water for 15 minutes. Reserve the mushroom soaking water.",
+      "Brine the chicken in hot salted water, then place it in a heatproof shallow bowl.",
+      "Arrange the soaked shiitake, jujubes and goji berries around the chicken.",
+      "Add a little reserved mushroom soaking water. Season with salt and chicken bouillon.",
+      "Place the bowl in a covered steamer and steam for 30 to 40 minutes.",
+      "Add the vermicelli and steam for another 5 minutes, until tender."
+    ],
+    "evidence": [
+      "The reel directly shows the 15-minute soak and 30-to-40-minute steaming time.",
+      "The creator's written caption supplies the hot-water brine, seasonings and final 5-minute vermicelli step.",
+      "No ingredient quantities are supplied.",
+      "The reel frames this as comfort food when feeling under the weather, not as medical treatment."
+    ]
+  },
+  {
+    "slug": "rice-cooker-black-glutinous-rice-tapioca",
+    "title": "Rice Cooker Black Glutinous Rice Tapioca",
+    "subtitle": "A coconut milk dessert made without the stovetop",
+    "creator": "Drew Eats 🍛",
+    "platform": "Instagram",
+    "sourceUrl": "https://www.instagram.com/reel/DWpDOBYhsR7/",
+    "image": "assets/black-glutinous-rice-tapioca.jpg",
+    "imagePosition": "50% 68%",
+    "duration": "0:26 video",
+    "time": "Overnight soak + 2 rice-cooker cycles",
+    "tags": [
+      "Asian",
+      "Dessert",
+      "Rice cooker",
+      "Coconut"
+    ],
+    "confidence": "Medium",
+    "ingredients": [
+      "Black glutinous rice, quantity not shown",
+      "Small tapioca pearls, quantity not shown",
+      "Rock sugar, to taste",
+      "Coconut milk, quantity not shown",
+      "Water, quantity not shown"
+    ],
+    "steps": [
+      "Rinse the black glutinous rice and soak it overnight.",
+      "Drain and cook the rice in a rice cooker using its quickest setting, until tender.",
+      "Add the tapioca pearls, rock sugar, coconut milk and water. Stir well.",
+      "Run the quickest rice-cooker setting again for no more than 20 minutes, stopping early if needed so the tapioca remains intact.",
+      "Stir and serve warm. If the pudding is too thick, loosen it with boiling water or additional coconut milk."
+    ],
+    "evidence": [
+      "The reel directly shows the overnight soak, one initial rice-cooker cycle and a second 20-minute cooking stage.",
+      "The creator's caption warns not to exceed 20 minutes after adding tapioca.",
+      "No ingredient quantities or liquid ratios are supplied.",
+      "The final texture is intended to be thick, soft and spoonable."
     ]
   }
 ]
