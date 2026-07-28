@@ -1,0 +1,86 @@
+[
+  {
+    "slug": "chinese-beef-potato-stew",
+    "title": "Chinese Beef and Potato Stew",
+    "subtitle": "土豆炖牛肉",
+    "creator": "小麗 (教做菜)",
+    "platform": "Instagram",
+    "sourceUrl": "https://www.instagram.com/reel/DZYoYU8Rtwu/",
+    "image": "assets/beef-potato-stew.jpg",
+    "duration": "1:52 video",
+    "time": "About 2 hours",
+    "tags": ["Chinese", "Beef", "Dinner", "Stew"],
+    "confidence": "High",
+    "ingredients": [
+      "500 g beef rib fingers or stewing beef",
+      "300 g potatoes, cut into rolling-cut chunks",
+      "250 g tomatoes, chopped",
+      "3 scallion sections",
+      "4 slices ginger, plus 1 smashed piece for blanching",
+      "1 piece cassia or cinnamon bark",
+      "1 star anise",
+      "2 bay leaves",
+      "15 g rock sugar",
+      "A little cooking oil",
+      "8 g Shaoxing cooking wine",
+      "20 g light soy sauce",
+      "8 g dark soy sauce",
+      "5 slices dried hawthorn, optional",
+      "1 L boiling water",
+      "1/2 spoon salt"
+    ],
+    "steps": [
+      "Place the beef in water with one smashed piece of ginger. Bring to a boil over high heat and skim away the foam.",
+      "Heat a little oil over low heat. Melt the rock sugar until it becomes deep reddish brown.",
+      "Add the drained beef and stir-fry quickly over medium-high heat until coated and browned.",
+      "Reduce to medium-low. Add scallion, ginger, star anise, cassia and bay leaves, followed by the cooking wine, light soy sauce and dark soy sauce.",
+      "Add the tomatoes and stir-fry over medium-high heat until softened.",
+      "Add the dried hawthorn and 1 L boiling water. Bring to a boil over high heat.",
+      "Reduce to low and stew for 1 hour 15 minutes. The reel also gives a pressure-cooker option of 15 minutes on low after pressure is reached.",
+      "Add the potatoes and continue cooking until tender. The reel marks this later stage as 15 minutes.",
+      "Add half a spoonful of salt, cover and finish over medium-low heat. Serve with rice."
+    ],
+    "evidence": [
+      "Ingredient quantities and most heat settings were displayed directly in Chinese captions.",
+      "The reel gives both ordinary-pot and pressure-cooker timings.",
+      "The spoon size for salt is not specified.",
+      "The precise boundary between the beef and potato cooking stages is reconstructed from sampled frames."
+    ]
+  },
+  {
+    "slug": "five-treasure-red-porridge",
+    "title": "Red Bean Wellness Porridge",
+    "subtitle": "A five-ingredient Chinese sweet porridge",
+    "creator": "Jia | Chinese Wellness",
+    "platform": "Instagram",
+    "sourceUrl": "https://www.instagram.com/reel/DatYV2rS6gg/",
+    "image": "assets/five-treasure-porridge.jpg",
+    "duration": "0:39 video",
+    "time": "Until beans are tender",
+    "tags": ["Chinese", "Porridge", "Sweet", "Plant-based"],
+    "confidence": "Medium",
+    "ingredients": [
+      "1/3 cup red or adzuki beans",
+      "Red dates or jujubes, quantity not shown",
+      "Raw red-skin peanuts, quantity not shown",
+      "Black rice, quantity not shown",
+      "Goji berries, quantity not shown",
+      "Water as needed",
+      "Rock sugar or another crystalline sweetener, to taste",
+      "Sweet fermented rice, optional topping",
+      "Osmanthus flowers, optional topping"
+    ],
+    "steps": [
+      "Combine the red beans, red dates, peanuts, black rice and goji berries. Rinse them thoroughly.",
+      "Transfer to a lidded pot and cover generously with water.",
+      "Cook on the stovetop until the beans and grains are tender and the mixture becomes thick and dark red-purple.",
+      "Sweeten to taste. Serve warm with optional sweet fermented rice and osmanthus flowers."
+    ],
+    "evidence": [
+      "The reel directly shows all five main ingredients, but only the red beans have a visible quantity.",
+      "No cooking time, water ratio or burner setting is supplied.",
+      "The sweetener appears to be rock sugar, but its label is not legible enough to confirm.",
+      "The creator presents this as pre-period wellness food. That is context, not a medical claim made by Food Vault."
+    ]
+  }
+]
