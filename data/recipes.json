@@ -699,5 +699,104 @@
       "Gentle heat matters most. High heat creates bubbles, a spongy texture and watery pockets.",
       "Water works well. A little beef broth gives the custard more flavor."
     ]
+  },
+  {
+    "slug": "instant-pot-galbi-jjim",
+    "title": "Instant Pot Galbi Jjim",
+    "subtitle": "Korean braised beef short ribs",
+    "creator": "Esther Soyeon Park Chun",
+    "platform": "Instagram",
+    "sourceUrl": "https://www.instagram.com/reel/Dax1vpFNxAk/",
+    "image": "assets/instant-pot-galbi-jjim.jpg",
+    "imagePosition": "50% 76%",
+    "duration": "0:57 video",
+    "time": "About 1 hour 30 minutes",
+    "tags": [
+      "Korean",
+      "Beef",
+      "Instant Pot",
+      "Dinner"
+    ],
+    "confidence": "High",
+    "ingredients": [
+      "6 lb sliced beef back ribs or beef short ribs",
+      "1 1/2 large potatoes, cut into chunks",
+      "3 large carrots, cut into chunks",
+      "4 green onions, divided",
+      "1/2 large onion, cut into chunks",
+      "Sesame seeds, for garnish",
+      "Cooked rice, to serve",
+      "1/2 cup water",
+      "1/2 can Korean pear juice, optional",
+      "1 cup soy sauce",
+      "1/3 cup mirin",
+      "3 tbsp brown sugar",
+      "3 tbsp sesame oil",
+      "2 tbsp minced garlic",
+      "1 tbsp minced ginger",
+      "2 tbsp honey, plus more if omitting the pear juice",
+      "2 tsp black pepper"
+    ],
+    "steps": [
+      "Rinse the ribs, then soak them in cold water for 30 minutes to draw out the blood.",
+      "While the ribs soak, cut the potatoes, carrots, green onions and onion into chunks. Reserve some green onion for garnish.",
+      "Mix the water, Korean pear juice, soy sauce, mirin, brown sugar, sesame oil, garlic, ginger, honey and black pepper.",
+      "Rinse the soaked ribs thoroughly in cold water. Place them in the Instant Pot and pour the sauce over them.",
+      "Cook at high pressure for 35 minutes.",
+      "Place the vegetables in a microwave-safe bowl, cover with a plate and microwave for 5 minutes. This keeps them from becoming too soft in the pressure cooker.",
+      "When the ribs are done, skim off and discard excess oil from the surface.",
+      "Add the partially cooked vegetables to the Instant Pot. Use Saute mode for 10 to 15 minutes, until the vegetables are tender to your liking and the sauce has reduced.",
+      "Garnish with green onion and sesame seeds, then serve with rice.",
+      "For a regular pot, simmer the ribs and sauce covered over low heat for about 1 1/2 hours. Add the vegetables and cook about 30 minutes longer, until tender."
+    ],
+    "evidence": [
+      "The creator provides the full ingredient quantities and directions in the reel caption.",
+      "The video confirms the main sequence: preparing the vegetables and sauce, rinsing the ribs, pressure cooking, adding the vegetables, and serving the finished galbi jjim with rice.",
+      "The caption gives both Instant Pot and regular-pot methods. The pear juice is explicitly optional, with extra honey suggested as a substitute."
+    ]
+  },
+  {
+    "slug": "sweet-potato-tapioca-balls",
+    "title": "Sweet Potato Tapioca Balls",
+    "subtitle": "Taiwanese-style dessert with grass jelly",
+    "creator": "Lucy Wang",
+    "platform": "Instagram",
+    "sourceUrl": "https://www.instagram.com/reel/Dal-FXWpqBk/",
+    "image": "assets/sweet-potato-tapioca-balls.jpg",
+    "imagePosition": "50% 50%",
+    "duration": "0:27 video",
+    "time": "Not stated in the caption",
+    "tags": [
+      "Taiwanese",
+      "Dessert",
+      "Sweet potato",
+      "Plant-based"
+    ],
+    "confidence": "High",
+    "ingredients": [
+      "1 cup steamed sweet potato",
+      "3/4 cup tapioca flour",
+      "1 cup steamed purple sweet potato",
+      "3/4 cup tapioca flour",
+      "4 cups water, for boiling",
+      "Coffee ice cubes, for serving",
+      "Grass jelly, for serving",
+      "Honey, for serving"
+    ],
+    "steps": [
+      "Steam the sweet potato and purple sweet potato until very soft.",
+      "Mash the orange and purple potatoes separately with a fork.",
+      "Mix 3/4 cup tapioca flour into each cup of mashed potato. Knead each mixture until it forms a cohesive ball.",
+      "Divide the dough into manageable pieces and roll them into logs.",
+      "Cut the logs into small, evenly sized nuggets.",
+      "Bring 4 cups of water to a boil. Add the potato balls and cook until they float to the surface.",
+      "Immediately strain the cooked balls and transfer them to an ice bath to preserve their chewy texture.",
+      "Assemble the dessert with coffee ice cubes and grass jelly. Add the orange and purple potato balls, then drizzle generously with honey."
+    ],
+    "evidence": [
+      "The creator provides exact potato, tapioca flour and boiling-water quantities in the reel caption.",
+      "The video confirms mashing the potato, kneading the dough, rolling and cutting the nuggets, and assembling the finished dessert with both colors of potato balls and grass jelly.",
+      "The boiling, ice-bath and honey steps come from the caption and are not clearly shown in the sampled video frames."
+    ]
   }
 ]
