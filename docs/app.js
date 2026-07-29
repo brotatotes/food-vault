@@ -57,6 +57,14 @@ function renderCards() {
 function openRecipe(slug) {
   const recipe = state.recipes.find(item => item.slug === slug);
   if (!recipe) return;
+  const sourceLink = recipe.sourceUrl
+    ? `<a class="source-link" href="${escapeHtml(recipe.sourceUrl)}" target="_blank" rel="noopener">${escapeHtml(recipe.sourceLabel || "Watch the original reel")} ↗</a>`
+    : "";
+  const imageCredit = recipe.imageCredit
+    ? recipe.imageSourceUrl
+      ? `<a class="source-link" href="${escapeHtml(recipe.imageSourceUrl)}" target="_blank" rel="noopener">${escapeHtml(recipe.imageCredit)} ↗</a>`
+      : `<span class="image-credit">${escapeHtml(recipe.imageCredit)}</span>`
+    : "";
   detail.innerHTML = `
     <section class="detail-hero" style="background-image:url('${escapeHtml(recipe.image)}');background-position:${escapeHtml(recipe.imagePosition || "center 55%")} ">
       <div class="detail-title">
@@ -71,8 +79,8 @@ function openRecipe(slug) {
           <h3>Ingredients</h3>
           <ul>${recipe.ingredients.map(item => `<li>${escapeHtml(item)}</li>`).join("")}</ul>
         </div>
-        <span class="confidence">Draft confidence · ${escapeHtml(recipe.confidence)}</span><br>
-        <a class="source-link" href="${escapeHtml(recipe.sourceUrl)}" target="_blank" rel="noopener">Watch the original reel ↗</a>
+        <span class="confidence">${escapeHtml(recipe.confidenceLabel || "Draft confidence")} · ${escapeHtml(recipe.confidence)}</span><br>
+        ${sourceLink}${sourceLink && imageCredit ? "<br>" : ""}${imageCredit}
       </div>
       <div>
         <div class="detail-block">
@@ -80,7 +88,7 @@ function openRecipe(slug) {
           <ol>${recipe.steps.map(item => `<li>${escapeHtml(item)}</li>`).join("")}</ol>
         </div>
         <div class="detail-block notes">
-          <h3>What the video told us</h3>
+          <h3>${escapeHtml(recipe.evidenceLabel || "What the video told us")}</h3>
           <ul>${recipe.evidence.map(item => `<li>${escapeHtml(item)}</li>`).join("")}</ul>
         </div>
       </div>

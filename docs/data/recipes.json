@@ -613,5 +613,91 @@
       "The video directly shows poaching the chicken, an ice bath, tearing the chicken by hand, frying shallots/garlic/ginger for the oil, mixing the sauce, and plating over rice with cucumber, crispy shallots and scallions.",
       "No ingredient quantities, poaching time, or heat levels are shown on screen."
     ]
+  },
+  {
+    "slug": "chilled-silken-tofu",
+    "title": "Chilled Silken Tofu",
+    "subtitle": "Cold tofu with soy, sesame and scallion",
+    "creator": "Eric & Lulu",
+    "platform": "Home recipe",
+    "image": "assets/chilled-silken-tofu.jpg",
+    "imagePosition": "50% 54%",
+    "imageCredit": "Photo: rhosoi, via Wikimedia Commons · CC BY",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Hiya-yakko_by_rhosoi.jpg",
+    "duration": "Serves 4",
+    "time": "5 minutes",
+    "tags": [
+      "Chinese",
+      "Tofu",
+      "No-cook",
+      "Plant-based",
+      "Appetizer"
+    ],
+    "confidence": "Home recipe",
+    "confidenceLabel": "Recipe status",
+    "ingredients": [
+      "1 block silken or soft tofu, kept cold",
+      "2 tbsp light soy sauce",
+      "1 scallion, finely sliced, especially the green parts",
+      "1 tsp toasted sesame oil",
+      "1 tsp toasted sesame seeds",
+      "Tiny pinch of sugar in the soy, optional",
+      "A few drops of black vinegar, optional"
+    ],
+    "steps": [
+      "Chill the tofu and serving plate. Keep the tofu refrigerated until the moment you assemble the dish.",
+      "Pour off the water and gently unmold the tofu onto the plate in one careful motion.",
+      "Leave the tofu whole or cut it into 3 to 4 clean, thick slices and fan them slightly.",
+      "Immediately before serving, drizzle with the soy sauce and sesame oil, then scatter the scallion and sesame seeds over the top."
+    ],
+    "evidenceLabel": "Kitchen notes",
+    "evidence": [
+      "Dress the tofu only when it is going to the table. If it sits in soy sauce, it releases water and loses its clean presentation.",
+      "Use dark amber toasted sesame oil for the nutty flavor. Pale, untoasted sesame oil tastes flatter.",
+      "Light soy sauce means lighter in color, not low-sodium. Standard all-purpose soy sauce is also fine. Avoid dark soy sauce."
+    ]
+  },
+  {
+    "slug": "steamed-egg-custard",
+    "title": "Steamed Egg Custard",
+    "subtitle": "Silky, tofu-like Chinese steamed egg",
+    "creator": "Eric & Lulu",
+    "platform": "Home recipe",
+    "image": "assets/steamed-egg-custard.jpg",
+    "imagePosition": "50% 50%",
+    "imageCredit": "Photo: Tam3415, via Wikimedia Commons · CC BY-SA 2.0",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:ChineseSteamedEgg.jpg",
+    "duration": "Serves 4",
+    "time": "About 20 minutes",
+    "tags": [
+      "Chinese",
+      "Egg",
+      "Steamed",
+      "Side dish"
+    ],
+    "confidence": "Home recipe",
+    "confidenceLabel": "Recipe status",
+    "ingredients": [
+      "3 large eggs",
+      "About 1 cup plus 2 tbsp water or broth, based on the measured egg volume",
+      "1/4 tsp salt",
+      "A few drops of toasted sesame oil, optional",
+      "Sliced scallion greens, optional"
+    ],
+    "steps": [
+      "Gently stir the eggs with the salt until fully combined. Do not whip in air.",
+      "Measure the beaten eggs, then stir in 1.5 times that volume of water or broth. Three large eggs are about 3/4 cup, so use about 1 cup plus 2 tbsp liquid.",
+      "Strain the mixture through a mesh strainer into a heatproof serving bowl. Skim off any surface bubbles.",
+      "Cover the bowl with foil or a small plate so condensation cannot pit the surface.",
+      "Steam gently over low to medium heat for 12 to 15 minutes. It is done when the center is just set and wobbles like soft gelatin without sloshing.",
+      "Remove from the heat and finish with a few drops of sesame oil and sliced scallion greens. Serve warm."
+    ],
+    "evidenceLabel": "Kitchen notes",
+    "evidence": [
+      "The recommended ratio is 1 part beaten egg to 1.5 parts liquid for a very soft, silky texture. Use a 1-to-1 ratio for a firmer, more tofu-like custard.",
+      "Straining removes stringy egg bits and helps produce a smooth surface.",
+      "Gentle heat matters most. High heat creates bubbles, a spongy texture and watery pockets.",
+      "Water works well. A little beef broth gives the custard more flavor."
+    ]
   }
 ]

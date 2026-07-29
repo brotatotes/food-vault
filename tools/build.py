@@ -15,7 +15,6 @@ REQUIRED = {
     "title",
     "creator",
     "platform",
-    "sourceUrl",
     "image",
     "ingredients",
     "steps",
@@ -36,8 +35,10 @@ def main() -> None:
         if recipe["slug"] in slugs:
             raise ValueError(f"Duplicate slug: {recipe['slug']}")
         slugs.add(recipe["slug"])
-        if not recipe["sourceUrl"].startswith("https://"):
+        if recipe.get("sourceUrl") and not recipe["sourceUrl"].startswith("https://"):
             raise ValueError(f"Source URL must use HTTPS: {recipe['slug']}")
+        if recipe.get("imageSourceUrl") and not recipe["imageSourceUrl"].startswith("https://"):
+            raise ValueError(f"Image source URL must use HTTPS: {recipe['slug']}")
         image = ROOT / "docs" / recipe["image"]
         if not image.is_file():
             raise ValueError(f"Missing image for {recipe['slug']}: {image}")

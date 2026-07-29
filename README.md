@@ -1,8 +1,8 @@
 # Food Vault
 
-Food Vault turns public cooking reels into source-linked draft recipes that are easier to search and cook from.
+Food Vault collects source-linked cooking reels and our own home-tested recipes in one searchable place.
 
-This repository contains the first prototype. It currently includes six source-linked recipes, a searchable static website, and a small build-time validator.
+This repository contains the first prototype, a searchable static website, and a small build-time validator.
 
 ## Local preview
 
@@ -15,10 +15,12 @@ Then open <http://localhost:8000>.
 
 ## Recipe policy
 
-- Every recipe links to the original creator and video.
+- Recipes transcribed from public sources link to the original creator and source.
+- Home recipes are labeled separately and preserve the recipe as we cooked it.
 - Recipes distinguish direct video evidence from uncertain or inferred details.
 - Downloaded videos are temporary processing inputs and are not published here.
 - Extracted cover frames remain attributed to the linked original source.
+- Third-party reference photos include visible source and license credit.
 
 ## Status
 
