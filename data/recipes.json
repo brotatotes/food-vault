@@ -798,5 +798,87 @@
       "The video confirms mashing the potato, kneading the dough, rolling and cutting the nuggets, and assembling the finished dessert with both colors of potato balls and grass jelly.",
       "The boiling, ice-bath and honey steps come from the caption and are not clearly shown in the sampled video frames."
     ]
+  },
+  {
+    "slug": "red-bean-black-rice-porridge",
+    "title": "Red Bean and Black Rice Porridge",
+    "subtitle": "Sticky electric-pot porridge with dates and peanuts",
+    "creator": "MiaoVibe",
+    "platform": "Instagram",
+    "sourceUrl": "https://www.instagram.com/reel/DZffzybuf8I/",
+    "image": "assets/red-bean-black-rice-porridge.jpg",
+    "imagePosition": "50% 60%",
+    "duration": "0:20 video",
+    "time": "Overnight soak + 1 1/2 hours",
+    "tags": [
+      "Chinese",
+      "Porridge",
+      "Red bean",
+      "Plant-based"
+    ],
+    "confidence": "High",
+    "ingredients": [
+      "60 g red beans",
+      "40 g black rice",
+      "20 g glutinous rice",
+      "20 g peanuts",
+      "3 pitted red dates",
+      "Water as needed"
+    ],
+    "steps": [
+      "Soak the red beans and black rice overnight.",
+      "Drain the soaked beans and rice, then combine them in an electric stew pot with the glutinous rice, peanuts and pitted red dates.",
+      "Add enough water for porridge.",
+      "Select the porridge setting and cook for 1 1/2 hours, until the beans and grains are very soft and sticky.",
+      "Stir and serve warm."
+    ],
+    "evidence": [
+      "All five solid ingredient quantities are shown directly in the reel's Chinese captions.",
+      "The reel specifies soaking the red beans and black rice overnight, then using an electric stew pot on porridge mode for 1 1/2 hours.",
+      "The amount of water is stated only as an appropriate amount, so no liquid ratio is inferred.",
+      "The reel includes nutritional and anemia-related claims. Food Vault records the recipe without endorsing those medical claims."
+    ]
+  },
+  {
+    "slug": "creamy-five-red-porridge",
+    "title": "Creamy Five-Red Porridge",
+    "subtitle": "Pressure-cooked grains, beans and dates finished with milk",
+    "creator": "MiaoVibe Life",
+    "platform": "Instagram",
+    "sourceUrl": "https://www.instagram.com/reel/DWil3AkDx1g/",
+    "image": "assets/creamy-five-red-porridge.jpg",
+    "imagePosition": "50% 62%",
+    "duration": "0:24 video",
+    "time": "About 45 minutes",
+    "tags": [
+      "Chinese",
+      "Porridge",
+      "Pressure cooker",
+      "Breakfast"
+    ],
+    "confidence": "High",
+    "ingredients": [
+      "1 spoonful red beans",
+      "1 spoonful red-skin peanuts",
+      "1 spoonful glutinous rice",
+      "1 spoonful black rice",
+      "1 spoonful red dates",
+      "Water as needed",
+      "Brown sugar to taste",
+      "1 carton plain milk, volume not stated"
+    ],
+    "steps": [
+      "Rinse the red beans, red-skin peanuts, glutinous rice, black rice and red dates.",
+      "Place everything in an electric pressure cooker and add an appropriate amount of water.",
+      "Pressure-cook for 45 minutes.",
+      "Stir in brown sugar to taste, then add one carton of plain milk.",
+      "Mix thoroughly and serve warm."
+    ],
+    "evidence": [
+      "The reel labels each of the five main ingredients as one spoonful, but the spoon size is not standardized.",
+      "The Chinese captions specify an electric pressure cooker and a 45-minute cooking time.",
+      "Brown sugar has no stated quantity, and the milk is identified as one carton without a volume.",
+      "The reel includes beauty and hair-related wellness claims. Food Vault records the recipe without endorsing those claims."
+    ]
   }
 ]
