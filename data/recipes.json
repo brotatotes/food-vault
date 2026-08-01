@@ -880,5 +880,50 @@
       "Brown sugar has no stated quantity, and the milk is identified as one carton without a volume.",
       "The reel includes beauty and hair-related wellness claims. Food Vault records the recipe without endorsing those claims."
     ]
+  },
+  {
+    "slug": "tomato-corn-pork-rib-soup",
+    "title": "Tomato and Corn Pork Rib Soup",
+    "subtitle": "番茄玉米排骨汤",
+    "creator": "Mendy Tan",
+    "platform": "Instagram",
+    "sourceUrl": "https://www.instagram.com/reel/DbdV00FNqwb/",
+    "image": "assets/tomato-corn-pork-rib-soup.jpg",
+    "imagePosition": "50% 58%",
+    "duration": "0:37 video",
+    "time": "Simmer until the pork and vegetables are tender",
+    "tags": [
+      "Chinese",
+      "Pork",
+      "Soup",
+      "Corn",
+      "Tomato"
+    ],
+    "confidence": "Medium-high",
+    "ingredients": [
+      "250 to 300 g pork ribs",
+      "4 slices ginger",
+      "2 tomatoes, chopped",
+      "1 ear corn, cut into rounds",
+      "1 potato, cut into chunks",
+      "700 ml water",
+      "Salt, to taste",
+      "Cooking oil, for sautéing"
+    ],
+    "steps": [
+      "Blanch the pork ribs and drain them.",
+      "Heat a little oil in a pot and sauté the ginger until fragrant.",
+      "Add the blanched pork ribs and stir-fry for 2 minutes.",
+      "Add the chopped tomatoes and stir-fry until they release their juices.",
+      "Add the corn, potato and 700 ml water.",
+      "Cover and simmer until the pork ribs, corn and potato are tender.",
+      "Season with salt to taste and serve hot."
+    ],
+    "evidence": [
+      "The creator's caption supplies all ingredient quantities.",
+      "The reel directly shows the ribs being blanched before cooking and gives a 2-minute stir-fry time.",
+      "The reel shows the covered simmer but does not provide its duration or heat setting.",
+      "A small amount of cooking oil is visually implied by the ginger sauté, but the caption does not list a quantity."
+    ]
   }
 ]
