@@ -115,5 +115,7 @@ footer { padding: 28px 6vw 44px; border-top: 1px solid var(--line); color: #5e69
   .recipe-grid { grid-template-columns: 1fr; }
   .detail-content { grid-template-columns: 1fr; padding: 28px 22px; gap: 28px; }
   .detail-hero { min-height: 300px; padding: 28px 22px; }
+  .detail-hero::before { background: linear-gradient(rgb(5 10 6 / 52%) 0%, rgb(5 10 6 / 76%) 42%, rgb(5 10 6 / 98%) 100%); }
+  .detail-title h2 { font-size: clamp(2.1rem, 11vw, 3.2rem); }
   .close { right: 16px; }
 }

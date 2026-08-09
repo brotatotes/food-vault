@@ -925,5 +925,54 @@
       "The reel shows the covered simmer but does not provide its duration or heat setting.",
       "A small amount of cooking oil is visually implied by the ginger sauté, but the caption does not list a quantity."
     ]
+  },
+  {
+    "slug": "tiger-skin-quail-eggs-red-braised-pork",
+    "title": "Red-Braised Pork with Tiger-Skin Quail Eggs",
+    "subtitle": "虎皮鹌鹑蛋炖红烧肉",
+    "creator": "小崔崔 · @giyeong264",
+    "platform": "Instagram",
+    "sourceUrl": "https://www.instagram.com/reel/DbnH3IWA7_R/",
+    "image": "assets/tiger-skin-quail-eggs-red-braised-pork.jpg",
+    "imagePosition": "50% 50%",
+    "duration": "2:13 video",
+    "time": "Braise until the pork is tender",
+    "tags": [
+      "Chinese",
+      "Pork",
+      "Quail egg",
+      "Braise",
+      "Dinner"
+    ],
+    "confidence": "Medium-high",
+    "ingredients": [
+      "Pork belly, preferably evenly layered with fat and lean meat",
+      "Peeled quail eggs",
+      "Scallion",
+      "Ginger",
+      "Star anise",
+      "Yellow rock sugar",
+      "Bottled red-braising sauce",
+      "Cooking wine, optional",
+      "Cooking oil",
+      "Boiling water"
+    ],
+    "steps": [
+      "Place the pork belly in cold water with scallion and ginger. Blanch it, then let it cool and cut it into cubes.",
+      "Heat a small amount of oil and pan-fry the pork belly for several tens of seconds. Remove it from the wok.",
+      "Pan-fry the peeled quail eggs for 5 to 6 minutes, until their surfaces blister into a tiger-skin texture. Set them aside.",
+      "Fry ginger and star anise in a little oil until fragrant.",
+      "For the sugar color, heat a little oil, add yellow rock sugar and cook over medium-low heat. Turn off the heat as soon as small bubbles appear, then add the pork belly.",
+      "Add the bottled red-braising sauce. The narration also mentions cooking wine as an alternative, but the exact item it replaces is not explicit.",
+      "Pour in boiling water. The reel emphasizes that the water must be boiling.",
+      "Braise until the pork is tender. Add the tiger-skin quail eggs during the braise and cook until they have absorbed the sauce.",
+      "Reduce the sauce as needed and serve hot."
+    ],
+    "evidence": [
+      "The reel directly shows the cold-water blanch, cutting, short pork fry, 5-to-6-minute quail-egg fry and braise.",
+      "An on-screen tutorial specifies yellow rock sugar, medium-low heat and turning off the heat as soon as small bubbles form.",
+      "The reel gives no ingredient weights, sauce quantity, water volume or total braising time, so none are inferred here.",
+      "Star anise and the bottled red-braising sauce are visible. The sauce brand and the narration's precise cooking-wine substitution are unclear."
+    ]
   }
 ]
