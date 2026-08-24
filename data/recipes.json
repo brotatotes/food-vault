@@ -974,5 +974,59 @@
       "The reel gives no ingredient weights, sauce quantity, water volume or total braising time, so none are inferred here.",
       "Star anise and the bottled red-braising sauce are visible. The sauce brand and the narration's precise cooking-wine substitution are unclear."
     ]
+  },
+  {
+    "slug": "creamy-miso-mushroom-udon",
+    "title": "Creamy Miso Mushroom Udon",
+    "subtitle": "A 15-minute udon with brown mushrooms, enoki and white miso",
+    "creator": "Claudia 🍄🌸 · @somethingsscooking",
+    "platform": "Instagram",
+    "sourceUrl": "https://www.instagram.com/reel/DcTKvucsthl/",
+    "image": "assets/creamy-miso-mushroom-udon.jpg",
+    "imagePosition": "50% 42%",
+    "duration": "0:39 video",
+    "time": "15 minutes",
+    "tags": [
+      "Japanese-inspired",
+      "Udon",
+      "Mushroom",
+      "Quick meal",
+      "Vegetarian"
+    ],
+    "confidence": "High",
+    "ingredients": [
+      "2 portions frozen udon noodles",
+      "150 g brown mushrooms",
+      "200 g enoki mushrooms, or an additional 200 g brown mushrooms",
+      "1 shallot",
+      "2 garlic cloves",
+      "Cooking oil, as needed",
+      "Butter, quantity not shown",
+      "1 tbsp light soy sauce",
+      "100 ml whole milk",
+      "80 ml double cream",
+      "1 tbsp white miso",
+      "1 tsp dark soy sauce, optional",
+      "Black pepper, to taste",
+      "1 egg yolk, optional"
+    ],
+    "steps": [
+      "Cover the frozen udon with hot water and leave it until loosened. Drain and set aside.",
+      "Clean the brown mushrooms. Separate the caps from the stems and thinly slice both.",
+      "Trim the ends from the enoki mushrooms, tear them into smaller strands and pat all the mushrooms dry.",
+      "Finely dice the shallot and garlic.",
+      "Heat a little oil in a pan over high heat. Cook the enoki until its excess moisture has evaporated, then add the brown mushrooms and continue cooking until their moisture has cooked away.",
+      "Add butter. Once melted, stir in the shallot and garlic and fry for a few minutes.",
+      "Reduce the heat to low or medium. Add the light soy sauce, milk and cream and stir to combine.",
+      "Turn off the heat, then stir in the white miso.",
+      "Add the drained udon, black pepper and optional dark soy sauce. Toss until evenly coated.",
+      "Serve with an optional egg yolk on top."
+    ],
+    "evidence": [
+      "The creator's caption supplies the servings, 15-minute total time, ingredient quantities and full method.",
+      "The reel directly shows both mushroom varieties being prepared and browned before the butter, aromatics, soy sauce, dairy and miso are added.",
+      "The amount of butter and the exact amount of cooking oil are not stated, so neither is inferred.",
+      "The egg yolk and dark soy sauce are optional in the creator's recipe."
+    ]
   }
 ]
