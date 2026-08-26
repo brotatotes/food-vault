@@ -1028,5 +1028,56 @@
       "The amount of butter and the exact amount of cooking oil are not stated, so neither is inferred.",
       "The egg yolk and dark soy sauce are optional in the creator's recipe."
     ]
+  },
+  {
+    "slug": "instant-pot-kimchi-jjigae",
+    "title": "Instant Pot Kimchi Jjigae",
+    "subtitle": "Pork rib kimchi stew with tofu and enoki mushrooms",
+    "creator": "Miko Wang · @_mikoo",
+    "platform": "Instagram",
+    "sourceUrl": "https://www.instagram.com/reel/Dce9TPtRnJ6/",
+    "image": "assets/instant-pot-kimchi-jjigae.jpg",
+    "imagePosition": "50% 45%",
+    "duration": "0:43 video",
+    "time": "About 45 minutes, plus prep",
+    "tags": [
+      "Korean",
+      "Pork",
+      "Kimchi",
+      "Instant Pot",
+      "Stew",
+      "Dinner"
+    ],
+    "confidence": "High",
+    "ingredients": [
+      "10 pork ribs",
+      "3 cups aged kimchi, plus some kimchi juice",
+      "1 onion, sliced",
+      "4 cups water, or enough to cover the ingredients",
+      "2 anchovy stock tablets",
+      "1 tbsp Korean soup soy sauce",
+      "2 tbsp mirin",
+      "1 tbsp fish sauce",
+      "1 tbsp Korean red pepper flakes, plus more for additional heat if desired",
+      "1 pack tofu, sliced",
+      "1 pack enoki mushrooms",
+      "Green onions, for garnish",
+      "Sesame seeds, for garnish",
+      "Cooked rice, to serve"
+    ],
+    "steps": [
+      "Blanch the pork ribs in boiling water for about 5 minutes. Drain and rinse them well.",
+      "Add the ribs, kimchi, onion, soup soy sauce, mirin, fish sauce, water, anchovy stock tablets and red pepper flakes to the Instant Pot.",
+      "Pressure cook on High for 20 minutes, then allow a natural release for 15 minutes.",
+      "Switch to Sauté mode. Add the enoki mushrooms and simmer for a few minutes, until tender.",
+      "Gently add the sliced tofu and simmer on low.",
+      "Garnish with green onions and sesame seeds. Serve hot with rice."
+    ],
+    "evidence": [
+      "The creator's caption supplies the complete ingredient quantities and cooking method.",
+      "The reel confirms the pork ribs, kimchi, onion, soup soy sauce and anchovy stock base, followed by pressure cooking on High for 20 minutes.",
+      "The reel also shows the ribs becoming fall-apart tender, then the enoki mushrooms and tofu being added before garnishing with green onions and sesame seeds.",
+      "The 15-minute natural release and exact quantities come from the written caption rather than visible on-screen text."
+    ]
   }
 ]
