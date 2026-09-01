@@ -10,6 +10,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "data" / "recipes.json"
 DESTINATION = ROOT / "docs" / "data" / "recipes.json"
+INDEX = ROOT / "docs" / "index.html"
+RECIPE_PAGES = ROOT / "docs" / "recipes"
 REQUIRED = {
     "slug",
     "title",
@@ -45,7 +47,24 @@ def main() -> None:
 
     DESTINATION.parent.mkdir(parents=True, exist_ok=True)
     shutil.copy2(SOURCE, DESTINATION)
-    print(f"Built {len(recipes)} recipes into {DESTINATION.relative_to(ROOT)}")
+
+    index_html = INDEX.read_text(encoding="utf-8")
+    recipe_html = index_html.replace(
+        '<meta charset="utf-8">',
+        '<meta charset="utf-8">\n  <base href="../../">',
+        1,
+    )
+    if RECIPE_PAGES.exists():
+        shutil.rmtree(RECIPE_PAGES)
+    for recipe in recipes:
+        page = RECIPE_PAGES / recipe["slug"] / "index.html"
+        page.parent.mkdir(parents=True, exist_ok=True)
+        page.write_text(recipe_html, encoding="utf-8")
+
+    print(
+        f"Built {len(recipes)} recipes and {len(recipes)} direct-link pages "
+        f"under {RECIPE_PAGES.relative_to(ROOT)}"
+    )
 
 
 if __name__ == "__main__":

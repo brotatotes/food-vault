@@ -34,7 +34,7 @@ function renderCards() {
   count.textContent = recipes.length;
   empty.hidden = recipes.length > 0;
   grid.innerHTML = recipes.map(recipe => `
-    <article class="card" data-slug="${escapeHtml(recipe.slug)}" tabindex="0" role="button" aria-label="Open ${escapeHtml(recipe.title)}">
+    <article class="card" data-slug="${escapeHtml(recipe.slug)}" tabindex="0" role="link" aria-label="Open ${escapeHtml(recipe.title)}">
       <div class="card-image">
         <img src="${escapeHtml(recipe.image)}" alt="${escapeHtml(recipe.title)}" loading="lazy" style="object-position:${escapeHtml(recipe.imagePosition || "center 55%")}">
         <span class="source-pill">${escapeHtml(recipe.platform)} · ${escapeHtml(recipe.creator)}</span>
@@ -48,15 +48,33 @@ function renderCards() {
     </article>
   `).join("");
   grid.querySelectorAll(".card").forEach(card => {
-    const open = () => openRecipe(card.dataset.slug);
+    const open = () => openRecipe(card.dataset.slug, true);
     card.addEventListener("click", open);
-    card.addEventListener("keydown", event => { if (event.key === "Enter" || event.key === " ") open(); });
+    card.addEventListener("keydown", event => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        open();
+      }
+    });
   });
 }
 
-function openRecipe(slug) {
+function recipePath(slug) {
+  return `/recipes/${encodeURIComponent(slug)}/`;
+}
+
+function slugFromPath() {
+  const match = window.location.pathname.match(/^\/recipes\/([^/]+)\/?$/);
+  return match ? decodeURIComponent(match[1]) : null;
+}
+
+function openRecipe(slug, updateHistory = false) {
   const recipe = state.recipes.find(item => item.slug === slug);
   if (!recipe) return;
+  if (updateHistory && window.location.pathname !== recipePath(slug)) {
+    history.pushState({ recipe: slug }, "", recipePath(slug));
+  }
+  document.title = `${recipe.title} · Food Vault`;
   const sourceLink = recipe.sourceUrl
     ? `<a class="source-link" href="${escapeHtml(recipe.sourceUrl)}" target="_blank" rel="noopener">${escapeHtml(recipe.sourceLabel || "Watch the original reel")} ↗</a>`
     : "";
@@ -97,9 +115,24 @@ function openRecipe(slug) {
   dialog.showModal();
 }
 
-document.querySelector(".close").addEventListener("click", () => dialog.close());
-dialog.addEventListener("click", event => { if (event.target === dialog) dialog.close(); });
+function closeRecipe(updateHistory = true) {
+  if (dialog.open) dialog.close();
+  document.title = "Food Vault";
+  if (updateHistory && slugFromPath()) history.pushState({}, "", "/");
+}
+
+document.querySelector(".close").addEventListener("click", () => closeRecipe());
+dialog.addEventListener("click", event => { if (event.target === dialog) closeRecipe(); });
+dialog.addEventListener("cancel", event => {
+  event.preventDefault();
+  closeRecipe();
+});
 search.addEventListener("input", () => { state.query = search.value; renderCards(); });
+window.addEventListener("popstate", () => {
+  const slug = slugFromPath();
+  if (slug) openRecipe(slug);
+  else closeRecipe(false);
+});
 
 fetch("data/recipes.json")
   .then(response => {
@@ -110,6 +143,8 @@ fetch("data/recipes.json")
     state.recipes = recipes;
     renderFilters();
     renderCards();
+    const slug = slugFromPath();
+    if (slug) openRecipe(slug);
   })
   .catch(error => {
     grid.innerHTML = `<p>Food Vault could not load its recipes. ${escapeHtml(error.message)}</p>`;
