@@ -1315,5 +1315,111 @@
     "imageCredit": "Photo from Tiffy Cooks",
     "imageSourceUrl": "https://tiffycooks.com/classic-braised-taiwanese-beef-stew/",
     "imagePosition": "center 50%"
+  },
+  {
+    "slug": "nepali-style-chicken-chukauni",
+    "title": "Nepali Style Chicken Chukauni",
+    "subtitle": "Spiced chicken with yogurt and mustard-oil tadka",
+    "creator": "kiwijess saved page",
+    "platform": "Cooked Wiki",
+    "sourceUrl": "https://cooked.wiki/saved/bd2e2b66-555e-4079-87e7-fd9af7cc9749",
+    "sourceLabel": "Open the saved source recipe",
+    "image": "assets/nepali-style-chicken-chukauni.jpg",
+    "imageCredit": "Illustrated cover by Food Vault, not a source photograph",
+    "imagePosition": "center 50%",
+    "duration": "Yield not stated",
+    "time": "10–15 min marinating + cooking",
+    "tags": [
+      "Nepali-style",
+      "Chicken",
+      "Yogurt",
+      "Dinner"
+    ],
+    "confidenceLabel": "Source status",
+    "confidence": "Supplied text, seasoning amounts unclear",
+    "evidenceLabel": "Source notes and missing details",
+    "ingredients": [
+      "400 g boneless chicken thigh or breast, cut into small cubes",
+      "2 tsp ginger-garlic paste",
+      "1/2 tsp salt, as listed. The yogurt step also calls for salt without a separate amount.",
+      "1/2 tsp pepper",
+      "1 tsp Kashmiri chili powder, as listed. Used in both the marinade and tadka, with no split or extra amount specified.",
+      "1/2 tsp turmeric powder, as listed. Used in both the marinade and tadka, with no split or extra amount specified.",
+      "1 tsp lemon juice",
+      "A light brush or spray of oil for frying",
+      "1 small onion, thinly sliced",
+      "1–2 green chilies, chopped",
+      "3 tbsp fresh coriander leaves, chopped",
+      "1 cup thick curd or Greek yogurt",
+      "1 tsp garlic paste",
+      "1/2 tsp sugar",
+      "1 1/2 tbsp mustard oil",
+      "1 tsp kasuri methi, crushed",
+      "Soft rotis or hot rice, to serve if desired. Quantity not stated."
+    ],
+    "steps": [
+      "Combine the chicken with ginger-garlic paste, salt, pepper, Kashmiri chili powder, turmeric and lemon juice. Marinate for 10–15 minutes. The source does not explain how the listed salt, turmeric and chili powder are divided between stages.",
+      "Lightly brush or spray a pan with oil. Pan-fry the chicken over medium-high heat until golden and cooked through, then transfer to a bowl. Food Vault safety addition: check that the chicken reaches 165°F in the thickest pieces. The source does not give a frying time.",
+      "Add the sliced onion, chopped green chilies and half the coriander to the chicken. Mix and set aside.",
+      "In a separate bowl, whisk the curd or Greek yogurt with garlic paste, salt and sugar until smooth. The amount of salt for this stage is not specified.",
+      "Heat the mustard oil. The supplied source says to heat it until smoking hot, then turn off the heat and add turmeric, Kashmiri chili powder and crushed kasuri methi. It does not give turmeric or chili-powder quantities for this stage. See the safety note below before heating the oil.",
+      "Pour the hot tadka into the yogurt and swirl gently to leave streaks.",
+      "Pour the yogurt mixture over the chicken and mix gently. Finish with the remaining coriander and serve with soft rotis or hot rice if desired."
+    ],
+    "evidence": [
+      "Imported from supplied text copied from the linked Cooked Wiki page. The page displays the profile name kiwijess, but the original recipe author is not identified. The blocked page was not independently re-read.",
+      "The listed salt, turmeric and Kashmiri chili powder appear in more than one stage. The text does not specify whether to divide those amounts or add more. No split or additional quantity has been invented.",
+      "Marinating time is 10–15 minutes. Frying time, total time and serving yield are not stated.",
+      "Food Vault safety note: use only mustard oil labeled for culinary use, not a product labeled for external use. Avoid overheating oil or producing heavy smoke, and never leave it unattended. Do not add wet ingredients to hot oil.",
+      "The 165°F chicken check is an explicitly labeled Food Vault food-safety addition, not a quoted instruction from the source."
+    ]
+  },
+  {
+    "slug": "taiwanese-pork-rib-daikon-soup",
+    "title": "Taiwanese Pork Rib & Daikon Soup",
+    "subtitle": "排骨蘿蔔湯 · Clear broth with ginger and garlic",
+    "creator": "Eating Alone Diaries",
+    "platform": "Substack",
+    "sourceUrl": "https://eatingalonediaries.substack.com/p/day-1725-pork-rib-and-daikon-soup",
+    "sourceLabel": "Read the original soup article",
+    "image": "assets/taiwanese-pork-rib-daikon-soup.jpg",
+    "imageCredit": "Illustrated cover by Food Vault, not a source photograph",
+    "imagePosition": "center 50%",
+    "duration": "3–4 servings",
+    "time": "45–60 min simmer + prep and finishing",
+    "tags": [
+      "Taiwanese",
+      "Pork",
+      "Soup",
+      "Daikon",
+      "Dinner"
+    ],
+    "confidenceLabel": "Source status",
+    "confidence": "Supplied recipe text",
+    "evidenceLabel": "Source notes and variations",
+    "ingredients": [
+      "1 lb pork ribs, cut into bite-size pieces",
+      "1 lb daikon radish, peeled and cut into chunks",
+      "1-inch piece fresh ginger, sliced",
+      "4–5 garlic cloves, lightly smashed",
+      "About 8 cups water for the soup, enough to cover the ingredients, plus water for blanching",
+      "1 1/2–2 tsp salt, to taste",
+      "1/2–1 tsp white pepper, to taste",
+      "Scallions or cilantro for garnish, optional. Quantity not stated."
+    ],
+    "steps": [
+      "Put the pork ribs in a pot and cover with cold water. Bring to a boil and cook for 3–4 minutes, until foam and impurities rise to the surface. Drain and rinse the ribs under running water.",
+      "Return the cleaned ribs to a clean pot. Add the daikon, ginger and garlic, then pour in fresh water to fully cover the ingredients, about 8 cups.",
+      "Bring to a boil, then reduce to a gentle simmer. Cover and cook for 45–60 minutes, until the pork is tender and the daikon is soft and slightly translucent. Skim off any foam that appears.",
+      "Season with salt and white pepper to taste. Stir gently and simmer for another 2–3 minutes.",
+      "Ladle into bowls, garnish with chopped scallions or cilantro if desired, and serve hot."
+    ],
+    "evidence": [
+      "Imported from supplied recipe text for the linked Eating Alone Diaries article. The source page blocked automated access, so the supplied text is the transcription evidence rather than an independent live-page verification.",
+      "The text gives 3–4 servings, a 3–4-minute blanch, a 45–60-minute covered simmer and a final 2–3-minute simmer after seasoning. Prep and total time are not stated.",
+      "The source recommends seasoning near the end and keeping the simmer gentle for a clearer broth. Daikon contributes natural sweetness.",
+      "Optional variation from the supplied text: add carrots or corn for extra sweetness. No quantities are specified for these additions.",
+      "The source describes this as part of a multi-dish Taiwanese meal rather than necessarily a standalone entrée."
+    ]
   }
 ]

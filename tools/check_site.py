@@ -29,9 +29,14 @@ def check_site(base_url, output_dir, slugs):
             assert page.locator('#recipe-grid .card').count() == 0
             page.locator('#search').fill('')
             assert page.locator('#recipe-grid .card').count() == all_cards
-            assert page.locator('.saved-link').count() == 2
-            page.locator('.saved-links').scroll_into_view_if_needed()
-            page.locator('.saved-links').screenshot(path=str(output_dir / f'saved-links-{device}.png'))
+            expected_links = page.request.get(f'{base}/data/recipe-links.json').json()
+            assert page.locator('.saved-link').count() == len(expected_links)
+            if expected_links:
+                assert page.locator('.saved-links').is_visible()
+                page.locator('.saved-links').scroll_into_view_if_needed()
+                page.locator('.saved-links').screenshot(path=str(output_dir / f'saved-links-{device}.png'))
+            else:
+                assert page.locator('.saved-links').is_hidden()
             for link in page.locator('.saved-link a').all():
                 assert link.get_attribute('href').startswith('https://')
             page.locator('.section-nav a[data-section="healthy-takeouts"]').click()
@@ -85,7 +90,7 @@ def check_site(base_url, output_dir, slugs):
                 detail.locator('.section-nav a[data-section="healthy-takeouts"]').click()
                 assert detail.locator('#healthy-takeouts').is_visible()
                 detail.close()
-            report['devices'].append({'device': device, 'recipeCount': all_cards, 'takeoutCount': 7, 'checkedSlugs': slugs})
+            report['devices'].append({'device': device, 'recipeCount': all_cards, 'takeoutCount': 7, 'pendingSourceCount': len(expected_links), 'checkedSlugs': slugs})
             page.close()
         browser.close()
     (output_dir / 'checks.json').write_text(json.dumps(report, indent=2))

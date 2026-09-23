@@ -198,6 +198,7 @@ fetch("data/recipe-links.json")
     return response.json();
   })
   .then(links => {
+    document.querySelector(".saved-links").hidden = links.length === 0;
     document.querySelector("#saved-recipe-links").innerHTML = links.map(link => `
       <article class="saved-link" data-saved-link="${escapeHtml(link.slug)}">
         <a href="${escapeHtml(link.sourceUrl)}" target="_blank" rel="noopener">${escapeHtml(link.title)} ↗</a>
@@ -207,5 +208,6 @@ fetch("data/recipe-links.json")
     `).join("");
   })
   .catch(error => {
+    document.querySelector(".saved-links").hidden = false;
     document.querySelector("#saved-recipe-links").textContent = error.message;
   });

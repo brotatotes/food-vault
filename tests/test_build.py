@@ -18,7 +18,7 @@ class CollectionTests(unittest.TestCase):
         self.links = json.loads((ROOT / 'data/recipe-links.json').read_text())
 
     def test_counts_and_complete_recipes(self):
-        self.assertEqual(len(self.recipes), 27)
+        self.assertEqual(len(self.recipes), 29)
         for recipe in self.recipes:
             self.assertTrue(recipe['ingredients'])
             self.assertTrue(recipe['steps'])
@@ -48,8 +48,14 @@ class CollectionTests(unittest.TestCase):
         })
 
     def test_uncertainty_and_ingredient_warning(self):
-        self.assertEqual(len(self.links), 2)
-        self.assertTrue(all(link['status'] == 'Recipe details pending' for link in self.links))
+        self.assertEqual(self.links, [])
+        chukauni = next(item for item in self.recipes if item['slug'] == 'nepali-style-chicken-chukauni')
+        self.assertIn('No split or additional quantity has been invented', ' '.join(chukauni['evidence']))
+        self.assertIn('165°F', ' '.join(chukauni['steps']))
+        self.assertEqual(chukauni['duration'], 'Yield not stated')
+        soup = next(item for item in self.recipes if item['slug'] == 'taiwanese-pork-rib-daikon-soup')
+        self.assertEqual(soup['duration'], '3–4 servings')
+        self.assertIn('45–60 minutes', ' '.join(soup['steps']))
         stew = next(item for item in self.recipes if item['slug'] == 'classic-braised-taiwanese-beef-stew')
         self.assertIn('not bean-free', ' '.join(stew['evidence']))
         pumpkin = next(item for item in self.recipes if item['slug'] == 'one-pot-pumpkin-mushroom-rice')
@@ -77,10 +83,11 @@ class CollectionTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             (root / 'data').mkdir()
-            (root / 'data/recipe-links.json').write_text(json.dumps(self.links))
+            link = {'slug': 'duplicate', 'title': 'Duplicate', 'sourceUrl': self.recipes[0]['sourceUrl'], 'status': 'Pending', 'note': 'Test fixture'}
+            (root / 'data/recipe-links.json').write_text(json.dumps([link]))
             with patch.object(build, 'ROOT', root):
                 with self.assertRaisesRegex(ValueError, 'duplicate saved source'):
-                    build.build_recipe_links({self.links[0]['sourceUrl'].rstrip('/')})
+                    build.build_recipe_links({link['sourceUrl'].rstrip('/')})
 
 
 if __name__ == '__main__':
