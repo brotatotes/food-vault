@@ -161,7 +161,9 @@ fetch("data/recipes.json")
     return response.json();
   })
   .then(recipes => {
-    state.recipes = recipes;
+    // Addition time is immutable. Editing an older recipe must not promote it.
+    // Stable sorting preserves source order for recipes added in the same batch.
+    state.recipes = [...recipes].sort((a, b) => Date.parse(b.addedAt) - Date.parse(a.addedAt));
     renderFilters();
     renderCards();
     const slug = slugFromPath();

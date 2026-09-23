@@ -17,6 +17,7 @@ def check_site(base_url, output_dir, slugs):
             page = browser.new_page(viewport=viewport, device_scale_factor=1)
             page.on('pageerror', lambda error: report['errors'].append(str(error)))
             page.goto(base, wait_until='networkidle')
+            page.add_style_tag(content='html { scroll-behavior: auto !important; }')
             page.locator('#recipe-grid .card').first.wait_for(state='visible')
             assert page.locator('#recipes').is_visible()
             assert page.locator('#healthy-takeouts').is_hidden()
@@ -24,6 +25,22 @@ def check_site(base_url, output_dir, slugs):
             assert 'sans-serif' not in page.locator('body').evaluate('(el) => getComputedStyle(el).fontFamily')
             page.screenshot(path=str(output_dir / f'home-{device}.png'))
             all_cards = page.locator('#recipe-grid .card').count()
+            data = page.request.get(f'{base}/data/recipes.json').json()
+            from datetime import datetime
+            ordered = sorted(data, key=lambda recipe: datetime.fromisoformat(recipe['addedAt'].replace('Z', '+00:00')), reverse=True)
+            def rendered_slugs():
+                return page.locator('#recipe-grid .card').evaluate_all('(cards) => cards.map(card => card.dataset.slug)')
+            assert rendered_slugs() == [recipe['slug'] for recipe in ordered], 'Newest-added order'
+            page.locator('#search').fill('chicken')
+            expected = [recipe['slug'] for recipe in ordered if 'chicken' in ' '.join([recipe['title'], recipe['subtitle'], recipe['creator'], *recipe['tags'], *recipe['ingredients']]).lower()]
+            assert rendered_slugs() == expected, 'Search order'
+            page.locator('#search').fill('')
+            page.locator('.filter[data-tag="Soup"]').click()
+            assert rendered_slugs() == [recipe['slug'] for recipe in ordered if 'Soup' in recipe['tags']], 'Filter order'
+            page.locator('.filter[data-tag="All"]').click()
+            page.locator('#recipe-grid .card').first.evaluate('(el) => el.scrollIntoView({block: "start", behavior: "instant"})')
+            page.wait_for_function('() => { const i = document.querySelector("#recipe-grid .card img"); return i.complete && i.naturalWidth > 0; }')
+            page.screenshot(path=str(output_dir / f'newest-first-{device}.png'))
             page.locator('#search').fill('unlikely-no-match-987654321')
             assert page.locator('#empty').is_visible()
             assert page.locator('#recipe-grid .card').count() == 0

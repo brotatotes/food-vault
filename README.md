@@ -15,6 +15,8 @@ Then open <http://localhost:8000>.
 
 Use `/#healthy-takeouts` for the restaurant collection. `data/takeouts.json` holds the seven restaurant entries and ordering suggestions. These are not verified nutritional ratings. `data/recipe-links.json` keeps inaccessible recipe sources separate from complete recipes, with their limitations visible.
 
+Recipes display newest-added first, including filtered and searched results. Every recipe requires an immutable timezone-aware ISO `addedAt` value. Set it when adding a recipe, and preserve it during later edits. Historical dates were backfilled from each recipe's first appearance in repository history, not the source article's publication date. Same-batch ties retain data-file order. Keep per-recipe image crops on the record rather than tying crops to a card's position.
+
 ## Checks
 
 ```bash

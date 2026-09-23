@@ -51,7 +51,8 @@
       "The spoon size for salt is not specified.",
       "The precise boundary between the beef and potato cooking stages is reconstructed from sampled frames."
     ],
-    "imagePosition": "45% 42%"
+    "imagePosition": "45% 42%",
+    "addedAt": "2026-07-28T13:28:30+00:00"
   },
   {
     "slug": "five-treasure-red-porridge",
@@ -93,7 +94,8 @@
       "The sweetener appears to be rock sugar, but its label is not legible enough to confirm.",
       "The creator presents this as pre-period wellness food. That is context, not a medical claim made by Food Vault."
     ],
-    "imagePosition": "50% 55%"
+    "imagePosition": "50% 55%",
+    "addedAt": "2026-07-28T13:28:30+00:00"
   },
   {
     "slug": "cucumber-sandwiches",
@@ -137,7 +139,8 @@
       "This recipe is transcribed from the source site's structured recipe card rather than inferred from video.",
       "The source recommends a heartier sandwich bread so the generous filling holds together and cuts cleanly.",
       "English or Persian cucumbers help limit sogginess."
-    ]
+    ],
+    "addedAt": "2026-07-28T13:54:43+00:00"
   },
   {
     "slug": "minced-meat-with-potatoes",
@@ -186,7 +189,8 @@
       "The only exact cooking time shown is the covered 5-minute simmer.",
       "Either minced pork or minced chicken is explicitly offered.",
       "The amount and ratio of light and dark soy sauce must be adjusted to taste."
-    ]
+    ],
+    "addedAt": "2026-07-28T13:54:43+00:00"
   },
   {
     "slug": "mushroom-goji-steamed-chicken",
@@ -230,7 +234,8 @@
       "The creator's written caption supplies the hot-water brine, seasonings and final 5-minute vermicelli step.",
       "No ingredient quantities are supplied.",
       "The reel frames this as comfort food when feeling under the weather, not as medical treatment."
-    ]
+    ],
+    "addedAt": "2026-07-28T13:54:43+00:00"
   },
   {
     "slug": "rice-cooker-black-glutinous-rice-tapioca",
@@ -269,7 +274,8 @@
       "The creator's caption warns not to exceed 20 minutes after adding tapioca.",
       "No ingredient quantities or liquid ratios are supplied.",
       "The final texture is intended to be thick, soft and spoonable."
-    ]
+    ],
+    "addedAt": "2026-07-28T13:54:43+00:00"
   },
   {
     "slug": "korean-braised-chicken-jjimdak",
@@ -325,7 +331,8 @@
       "The video directly shows chicken, water, braising sauce, vegetables, mushrooms and noodles being added in that order.",
       "The reel does not display cooking times. The timing and 3 cups of water come from Korean Bapsang's recipe, whose ingredient list matches the caption exactly.",
       "The creator describes this as an easy one-pot recipe."
-    ]
+    ],
+    "addedAt": "2026-07-28T16:42:14+00:00"
   },
   {
     "slug": "coconut-red-lentil-curry-beef",
@@ -375,7 +382,8 @@
       "The video directly shows browning and removing the beef, sweating onion and carrot, blooming curry powder in an oil pool, then adding crushed tomatoes, water, red lentils and coconut milk.",
       "The on-screen captions state the curry is covered and simmered on medium-low for about 30 minutes.",
       "No ingredient quantities are shown on screen; amounts are left unstated rather than inferred. The green garnish is not named on screen."
-    ]
+    ],
+    "addedAt": "2026-07-28T17:49:57+00:00"
   },
   {
     "slug": "one-pot-tandoori-chicken-rice",
@@ -420,7 +428,8 @@
       "The video's rolling narration captions state the chicken was marinated overnight in Greek yogurt and Indian spices, the onions were cooked for five minutes before adding tomatoes and spices, the rice was cooked in bone broth, and the chicken was returned and covered for fifteen minutes.",
       "The video directly shows searing and removing the chicken, sauteing onion, adding tomatoes and spice, adding rice and broth, returning the chicken, covering, and garnishing with cilantro.",
       "No ingredient quantities are shown on screen. The chicken cut and exact spice blend are not specified."
-    ]
+    ],
+    "addedAt": "2026-07-28T17:49:57+00:00"
   },
   {
     "slug": "coconut-chicken-sweet-potato",
@@ -467,7 +476,8 @@
       "The creator's caption reproduces the full New York Times Cooking recipe by Kay Chun, including all ingredient quantities and the complete method.",
       "The video directly confirms the method: dicing and cooking the sweet potato, mincing and sauteing scallions/garlic/ginger, browning the ground chicken, a creamy coconut simmer, folding in spinach, and a cilantro finish served over rice.",
       "Quantities come from the creator's written caption; the video itself shows no ingredient overlays. Lime juice and hot sauce are listed in the caption but are not shown being added on camera."
-    ]
+    ],
+    "addedAt": "2026-07-28T17:49:57+00:00"
   },
   {
     "slug": "lemon-chicken-orzo",
@@ -518,7 +528,8 @@
       "The creator, a registered dietitian, provides the full recipe with quantities, directions, storage and nutrition in the caption, plus a link to her website (mallorythedietitian.com).",
       "The video confirms the visible sequence: sauteing onion, adding cubed chicken with seasoning, adding dry orzo and broth to simmer, wilting in spinach, and stirring in grated parmesan.",
       "Quantities come from the creator's written recipe. Greek yogurt, lemon juice and zest are listed in the caption but are not distinctly shown being added on camera."
-    ]
+    ],
+    "addedAt": "2026-07-28T17:49:57+00:00"
   },
   {
     "slug": "one-pot-pumpkin-mushroom-rice",
@@ -583,7 +594,8 @@
     "evidenceLabel": "Source notes",
     "imagePosition": "50% 55%",
     "imageCredit": "Cover frame from the original reel by Jeeca",
-    "imageSourceUrl": "https://www.instagram.com/reel/DQE60voCTC5/"
+    "imageSourceUrl": "https://www.instagram.com/reel/DQE60voCTC5/",
+    "addedAt": "2026-07-28T17:49:57+00:00"
   },
   {
     "slug": "poached-chicken-shallot-oil",
@@ -631,7 +643,8 @@
       "The video's on-screen captions state the chicken is simmered in water infused with ginger, scallions and shallot with Shaoxing wine and salt, and that the sauce combines the fried shallot/garlic/ginger oil with soy sauce, oyster sauce and water.",
       "The video directly shows poaching the chicken, an ice bath, tearing the chicken by hand, frying shallots/garlic/ginger for the oil, mixing the sauce, and plating over rice with cucumber, crispy shallots and scallions.",
       "No ingredient quantities, poaching time, or heat levels are shown on screen."
-    ]
+    ],
+    "addedAt": "2026-07-28T17:49:57+00:00"
   },
   {
     "slug": "chilled-silken-tofu",
@@ -674,7 +687,8 @@
       "Dress the tofu only when it is going to the table. If it sits in soy sauce, it releases water and loses its clean presentation.",
       "Use dark amber toasted sesame oil for the nutty flavor. Pale, untoasted sesame oil tastes flatter.",
       "Light soy sauce means lighter in color, not low-sodium. Standard all-purpose soy sauce is also fine. Avoid dark soy sauce."
-    ]
+    ],
+    "addedAt": "2026-07-29T00:43:43+00:00"
   },
   {
     "slug": "steamed-egg-custard",
@@ -717,7 +731,8 @@
       "Straining removes stringy egg bits and helps produce a smooth surface.",
       "Gentle heat matters most. High heat creates bubbles, a spongy texture and watery pockets.",
       "Water works well. A little beef broth gives the custard more flavor."
-    ]
+    ],
+    "addedAt": "2026-07-29T00:43:43+00:00"
   },
   {
     "slug": "instant-pot-galbi-jjim",
@@ -772,7 +787,8 @@
       "The creator provides the full ingredient quantities and directions in the reel caption.",
       "The video confirms the main sequence: preparing the vegetables and sauce, rinsing the ribs, pressure cooking, adding the vegetables, and serving the finished galbi jjim with rice.",
       "The caption gives both Instant Pot and regular-pot methods. The pear juice is explicitly optional, with extra honey suggested as a substitute."
-    ]
+    ],
+    "addedAt": "2026-07-29T03:41:21+00:00"
   },
   {
     "slug": "sweet-potato-tapioca-balls",
@@ -816,7 +832,8 @@
       "The creator provides exact potato, tapioca flour and boiling-water quantities in the reel caption.",
       "The video confirms mashing the potato, kneading the dough, rolling and cutting the nuggets, and assembling the finished dessert with both colors of potato balls and grass jelly.",
       "The boiling, ice-bath and honey steps come from the caption and are not clearly shown in the sampled video frames."
-    ]
+    ],
+    "addedAt": "2026-07-29T03:41:21+00:00"
   },
   {
     "slug": "red-bean-black-rice-porridge",
@@ -856,7 +873,8 @@
       "The reel specifies soaking the red beans and black rice overnight, then using an electric stew pot on porridge mode for 1 1/2 hours.",
       "The amount of water is stated only as an appropriate amount, so no liquid ratio is inferred.",
       "The reel includes nutritional and anemia-related claims. Food Vault records the recipe without endorsing those medical claims."
-    ]
+    ],
+    "addedAt": "2026-07-29T03:46:56+00:00"
   },
   {
     "slug": "creamy-five-red-porridge",
@@ -898,7 +916,8 @@
       "The Chinese captions specify an electric pressure cooker and a 45-minute cooking time.",
       "Brown sugar has no stated quantity, and the milk is identified as one carton without a volume.",
       "The reel includes beauty and hair-related wellness claims. Food Vault records the recipe without endorsing those claims."
-    ]
+    ],
+    "addedAt": "2026-07-29T03:46:56+00:00"
   },
   {
     "slug": "tomato-corn-pork-rib-soup",
@@ -943,7 +962,8 @@
       "The reel directly shows the ribs being blanched before cooking and gives a 2-minute stir-fry time.",
       "The reel shows the covered simmer but does not provide its duration or heat setting.",
       "A small amount of cooking oil is visually implied by the ginger sauté, but the caption does not list a quantity."
-    ]
+    ],
+    "addedAt": "2026-08-01T20:28:55+00:00"
   },
   {
     "slug": "tiger-skin-quail-eggs-red-braised-pork",
@@ -992,7 +1012,8 @@
       "An on-screen tutorial specifies yellow rock sugar, medium-low heat and turning off the heat as soon as small bubbles form.",
       "The reel gives no ingredient weights, sauce quantity, water volume or total braising time, so none are inferred here.",
       "Star anise and the bottled red-braising sauce are visible. The sauce brand and the narration's precise cooking-wine substitution are unclear."
-    ]
+    ],
+    "addedAt": "2026-08-09T13:09:55+00:00"
   },
   {
     "slug": "creamy-miso-mushroom-udon",
@@ -1046,7 +1067,8 @@
       "The reel directly shows both mushroom varieties being prepared and browned before the butter, aromatics, soy sauce, dairy and miso are added.",
       "The amount of butter and the exact amount of cooking oil are not stated, so neither is inferred.",
       "The egg yolk and dark soy sauce are optional in the creator's recipe."
-    ]
+    ],
+    "addedAt": "2026-08-24T12:55:23+00:00"
   },
   {
     "slug": "instant-pot-kimchi-jjigae",
@@ -1097,7 +1119,8 @@
       "The reel confirms the pork ribs, kimchi, onion, soup soy sauce and anchovy stock base, followed by pressure cooking on High for 20 minutes.",
       "The reel also shows the ribs becoming fall-apart tender, then the enoki mushrooms and tofu being added before garnishing with green onions and sesame seeds.",
       "The 15-minute natural release and exact quantities come from the written caption rather than visible on-screen text."
-    ]
+    ],
+    "addedAt": "2026-08-26T15:35:03+00:00"
   },
   {
     "slug": "brown-sugar-ginger-red-date-sago",
@@ -1142,7 +1165,8 @@
       "Visible counts support 7 red dates, 3 brown-sugar blocks and 2 ginger slices. No weights or volumes are supplied.",
       "The reel directly instructs a 30-minute covered simmer. A later English overlay says “another half an hour,” but the exact total simmer time is ambiguous, so the recipe preserves that uncertainty.",
       "The creator frames this as a warming drink for menstruation. That is creator context, not medical advice."
-    ]
+    ],
+    "addedAt": "2026-09-01T12:45:29+00:00"
   },
   {
     "slug": "tomato-egg-potato-mash-noodles",
@@ -1193,7 +1217,8 @@
       "The reel directly shows 2 beaten eggs and labels 2 tomatoes, 1 cooked potato, 3 garlic cloves, 2 spoonfuls light soy sauce, 1 spoonful tomato ketchup or paste, 1 spoonful Lao Gan Ma, a scant half-spoonful sugar and 1 spoonful noodle water.",
       "The reel directly instructs viewers to mash the sauce, optionally add cilantro and bird's-eye chili, simmer until thick, rinse the cooked noodles in cold water and toss them with the sauce.",
       "No noodle quantity, oil quantity, calibrated spoon size, heat level or numerical cooking time is supplied."
-    ]
+    ],
+    "addedAt": "2026-09-01T12:45:29+00:00"
   },
   {
     "slug": "avgolemono-soup",
@@ -1248,7 +1273,8 @@
     "evidenceLabel": "Source notes",
     "imageCredit": "Photo from Kelly (Kelly's Clean Kitchen)",
     "imageSourceUrl": "https://kellyscleankitchen.com/2023/11/27/avgolemono-soup/",
-    "imagePosition": "center 50%"
+    "imagePosition": "center 50%",
+    "addedAt": "2026-09-23T02:42:36+00:00"
   },
   {
     "slug": "classic-braised-taiwanese-beef-stew",
@@ -1314,7 +1340,8 @@
     "evidenceLabel": "Source notes",
     "imageCredit": "Photo from Tiffy Cooks",
     "imageSourceUrl": "https://tiffycooks.com/classic-braised-taiwanese-beef-stew/",
-    "imagePosition": "center 50%"
+    "imagePosition": "center 50%",
+    "addedAt": "2026-09-23T02:42:36+00:00"
   },
   {
     "slug": "nepali-style-chicken-chukauni",
@@ -1372,7 +1399,8 @@
       "Marinating time is 10–15 minutes. Frying time, total time and serving yield are not stated.",
       "Food Vault safety note: use only mustard oil labeled for culinary use, not a product labeled for external use. Avoid overheating oil or producing heavy smoke, and never leave it unattended. Do not add wet ingredients to hot oil.",
       "The 165°F chicken check is an explicitly labeled Food Vault food-safety addition, not a quoted instruction from the source."
-    ]
+    ],
+    "addedAt": "2026-09-23T02:54:29+00:00"
   },
   {
     "slug": "taiwanese-pork-rib-daikon-soup",
@@ -1420,6 +1448,7 @@
       "The source recommends seasoning near the end and keeping the simmer gentle for a clearer broth. Daikon contributes natural sweetness.",
       "Optional variation from the supplied text: add carrots or corn for extra sweetness. No quantities are specified for these additions.",
       "The source describes this as part of a multi-dish Taiwanese meal rather than necessarily a standalone entrée."
-    ]
+    ],
+    "addedAt": "2026-09-23T02:54:29+00:00"
   }
 ]

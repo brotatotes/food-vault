@@ -2,6 +2,7 @@ import importlib.util
 import json
 import tempfile
 import unittest
+from datetime import datetime
 from pathlib import Path
 from unittest.mock import patch
 
@@ -40,6 +41,18 @@ class CollectionTests(unittest.TestCase):
             'https://thefoodietakesflight.com/easy-one-pot-pumpkin-mushroom-rice',
         ]:
             self.assertEqual(urls.count(url), 1)
+
+    def test_addition_order_and_original_dates(self):
+        for recipe in self.recipes:
+            self.assertIsNotNone(datetime.fromisoformat(recipe['addedAt']).utcoffset())
+        ordered = sorted(self.recipes, key=lambda recipe: datetime.fromisoformat(recipe['addedAt']), reverse=True)
+        self.assertEqual([recipe['slug'] for recipe in ordered[:4]], [
+            'nepali-style-chicken-chukauni', 'taiwanese-pork-rib-daikon-soup',
+            'avgolemono-soup', 'classic-braised-taiwanese-beef-stew'
+        ])
+        pumpkin = next(recipe for recipe in ordered if recipe['slug'] == 'one-pot-pumpkin-mushroom-rice')
+        self.assertTrue(pumpkin['addedAt'].startswith('2026-07-28'))
+        self.assertGreater(ordered.index(pumpkin), 3)
 
     def test_takeout_names(self):
         self.assertEqual({item['name'] for item in self.takeouts}, {

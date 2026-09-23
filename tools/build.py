@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import json
 import shutil
+from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -21,6 +22,7 @@ REQUIRED = {
     "ingredients",
     "steps",
     "evidence",
+    "addedAt",
 }
 
 
@@ -82,6 +84,12 @@ def main() -> None:
         if recipe["slug"] in slugs:
             raise ValueError(f"Duplicate slug: {recipe['slug']}")
         slugs.add(recipe["slug"])
+        try:
+            added_at = datetime.fromisoformat(recipe["addedAt"].replace("Z", "+00:00"))
+            if added_at.utcoffset() is None:
+                raise ValueError("timezone required")
+        except (TypeError, ValueError, AttributeError) as error:
+            raise ValueError(f"Invalid timezone-aware addedAt: {recipe['slug']}") from error
         if recipe.get("sourceUrl") and not recipe["sourceUrl"].startswith("https://"):
             raise ValueError(f"Source URL must use HTTPS: {recipe['slug']}")
         for url in [recipe.get("sourceUrl"), *[item["url"] for item in recipe.get("additionalSources", [])]]:
