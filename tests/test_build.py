@@ -19,7 +19,7 @@ class CollectionTests(unittest.TestCase):
         self.links = json.loads((ROOT / 'data/recipe-links.json').read_text())
 
     def test_counts_and_complete_recipes(self):
-        self.assertEqual(len(self.recipes), 29)
+        self.assertEqual(len(self.recipes), 31)
         for recipe in self.recipes:
             self.assertTrue(recipe['ingredients'])
             self.assertTrue(recipe['steps'])
@@ -39,6 +39,8 @@ class CollectionTests(unittest.TestCase):
             'https://eatingalonediaries.substack.com/p/day-1725-pork-rib-and-daikon-soup',
             'https://tiffycooks.com/classic-braised-taiwanese-beef-stew',
             'https://thefoodietakesflight.com/easy-one-pot-pumpkin-mushroom-rice',
+            'https://feelgoodfoodie.net/recipe/3-ingredient-chia-pudding',
+            'https://feelgoodfoodie.net/recipe/overnight-oats',
         ]:
             self.assertEqual(urls.count(url), 1)
 
@@ -46,13 +48,31 @@ class CollectionTests(unittest.TestCase):
         for recipe in self.recipes:
             self.assertIsNotNone(datetime.fromisoformat(recipe['addedAt']).utcoffset())
         ordered = sorted(self.recipes, key=lambda recipe: datetime.fromisoformat(recipe['addedAt']), reverse=True)
-        self.assertEqual([recipe['slug'] for recipe in ordered[:4]], [
+        self.assertEqual([recipe['slug'] for recipe in ordered[:6]], [
+            '3-ingredient-chia-pudding', 'easy-overnight-oats',
             'nepali-style-chicken-chukauni', 'taiwanese-pork-rib-daikon-soup',
             'avgolemono-soup', 'classic-braised-taiwanese-beef-stew'
         ])
         pumpkin = next(recipe for recipe in ordered if recipe['slug'] == 'one-pot-pumpkin-mushroom-rice')
         self.assertTrue(pumpkin['addedAt'].startswith('2026-07-28'))
         self.assertGreater(ordered.index(pumpkin), 3)
+
+    def test_feelgoodfoodie_base_and_optional_flavors(self):
+        chia = next(item for item in self.recipes if item['slug'] == '3-ingredient-chia-pudding')
+        oats = next(item for item in self.recipes if item['slug'] == 'easy-overnight-oats')
+        for recipe in [chia, oats]:
+            self.assertEqual(recipe['duration'], '1 serving')
+            self.assertIn('Yumna Jawad', recipe['creator'])
+            self.assertIn('Feel Good Foodie', recipe['imageCredit'])
+        self.assertIn('optional', chia['ingredients'][2])
+        self.assertIn('Quantity not specified', chia['ingredients'][3])
+        self.assertEqual(oats['ingredients'][:2], ['Base: ½ cup rolled oats', 'Base: ½ cup milk of choice'])
+        self.assertEqual(sum(item.startswith('Optional add-in:') for item in oats['ingredients']), 4)
+        self.assertEqual(sum(' flavor:' in item for item in oats['ingredients']), 6)
+        self.assertIn('alternatives, not one combined ingredient list', ' '.join(oats['steps']))
+        self.assertIn('8 hours 5 minutes total', ' '.join(oats['evidence']))
+        self.assertIn('2 hours minimum', ' '.join(oats['evidence']))
+        self.assertIn('at least 4 hours', ' '.join(oats['evidence']))
 
     def test_takeout_names(self):
         self.assertEqual({item['name'] for item in self.takeouts}, {

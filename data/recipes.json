@@ -1450,5 +1450,97 @@
       "The source describes this as part of a multi-dish Taiwanese meal rather than necessarily a standalone entrée."
     ],
     "addedAt": "2026-09-23T02:54:29+00:00"
+  },
+  {
+    "slug": "3-ingredient-chia-pudding",
+    "title": "3-Ingredient Chia Pudding",
+    "subtitle": "Chia seeds, milk and an optional touch of honey",
+    "duration": "1 serving",
+    "time": "5 min prep + 2 hr chilling",
+    "tags": [
+      "Breakfast",
+      "Chia",
+      "No-cook",
+      "Make-ahead"
+    ],
+    "ingredients": [
+      "2 tablespoons chia seeds",
+      "½ cup almond milk or milk of choice",
+      "1 tablespoon honey or other sweetener, optional",
+      "Strawberries or other fruit for topping. Quantity not specified."
+    ],
+    "steps": [
+      "Mix the chia seeds, milk and optional sweetener in a jar. Let the mixture settle for 2–3 minutes, then stir thoroughly again until no clumps remain.",
+      "Cover and refrigerate for at least 2 hours or overnight.",
+      "Top with strawberries or your preferred fruit and serve cold."
+    ],
+    "evidence": [
+      "Adapted from Yumna Jawad’s recipe card on Feel Good Foodie. Makes 1 serving. The card lists 5 minutes of prep, no cooking, 2 hours of resting and 2 hours 5 minutes total.",
+      "Sweetener is optional despite the three-ingredient title. The recipe card does not specify a fruit quantity. Additional flavors and topping ideas are available on the original page.",
+      "The source recommends covered refrigerator storage for up to 5 days. It also permits freezing for up to 1 month, then thawing overnight in the refrigerator."
+    ],
+    "creator": "Yumna Jawad · Feel Good Foodie",
+    "platform": "Web",
+    "sourceUrl": "https://feelgoodfoodie.net/recipe/3-ingredient-chia-pudding/",
+    "sourceLabel": "Read the original recipe",
+    "image": "assets/3-ingredient-chia-pudding.jpg",
+    "imageCredit": "Photo from Feel Good Foodie",
+    "imageSourceUrl": "https://feelgoodfoodie.net/recipe/3-ingredient-chia-pudding/",
+    "imagePosition": "center 50%",
+    "confidence": "High",
+    "confidenceLabel": "Source confidence",
+    "evidenceLabel": "Source notes and variations",
+    "addedAt": "2026-09-23T13:27:51+00:00"
+  },
+  {
+    "slug": "easy-overnight-oats",
+    "title": "Easy Overnight Oats",
+    "subtitle": "A two-ingredient base with six optional flavor combinations",
+    "duration": "1 serving",
+    "time": "5 min prep + 8 hr chilling",
+    "tags": [
+      "Breakfast",
+      "Oats",
+      "No-cook",
+      "Make-ahead"
+    ],
+    "ingredients": [
+      "Base: ½ cup rolled oats",
+      "Base: ½ cup milk of choice",
+      "Optional add-in: ¼ cup nonfat Greek yogurt",
+      "Optional add-in: 1 tablespoon chia seeds",
+      "Optional add-in: 1 tablespoon honey or maple syrup",
+      "Optional add-in: ¼ teaspoon vanilla extract",
+      "Optional Peanut Butter & Jelly flavor: 1 tablespoon strawberry jam, 1 tablespoon creamy peanut butter, ¼ cup diced strawberries and 2 tablespoons crushed peanuts.",
+      "Optional Apple Pie flavor: ¼ cup diced apples, 1 tablespoon chopped pecans, 2 teaspoons maple syrup and ¼ teaspoon cinnamon.",
+      "Optional Banana Nutella flavor: ½ sliced banana, 1 tablespoon Nutella, 1 tablespoon crushed hazelnuts and 1 tablespoon chocolate chips.",
+      "Optional Almond Joy flavor: ¼ cup shredded coconut, 1 tablespoon chopped almonds, 1 tablespoon chocolate chips and 2 teaspoons maple syrup.",
+      "Optional Blueberry Lemon Muffin flavor: ¼ cup blueberries, 1 teaspoon lemon zest, 2 teaspoons honey and a pinch of salt.",
+      "Optional Maple Brown Sugar flavor: 1 tablespoon brown sugar, 2 teaspoons maple syrup, ¼ teaspoon cinnamon and a pinch of salt."
+    ],
+    "steps": [
+      "Mix the rolled oats and milk in a large glass container with any desired yogurt, chia seeds, sweetener or vanilla. The six flavor combinations are alternatives, not one combined ingredient list.",
+      "Cover with a lid or plastic wrap and refrigerate overnight. The recipe card allows 8 hours for chilling. Its instructions permit at least 2 hours, while a separate tip recommends at least 4 hours for better texture and flavor.",
+      "If using a flavor combination, add its toppings the night before or immediately before serving.",
+      "Uncover and serve from the container. Thin with additional milk or water if desired. The source gives no amount for this adjustment."
+    ],
+    "evidence": [
+      "Adapted from Yumna Jawad’s recipe card and ingredient groups on Feel Good Foodie. Makes 1 serving. The card lists 5 minutes of prep, no cooking, 8 hours of chilling and 8 hours 5 minutes total.",
+      "Only rolled oats and milk are required for the base. Yogurt, chia seeds, sweetener and vanilla are optional author add-ins. The six named flavors are separate optional combinations.",
+      "The page gives three soaking durations. The card budgets 8 hours, the instructions allow 2 hours minimum or overnight, and a separate tip recommends at least 4 hours. These distinctions are preserved rather than silently choosing a new total.",
+      "The source recommends refrigerator storage for up to 5 days. For a vegan version it suggests plant-based milk and yogurt with maple syrup. For a gluten-free version it specifies certified gluten-free oats."
+    ],
+    "creator": "Yumna Jawad · Feel Good Foodie",
+    "platform": "Web",
+    "sourceUrl": "https://feelgoodfoodie.net/recipe/overnight-oats/",
+    "sourceLabel": "Read the original recipe",
+    "image": "assets/easy-overnight-oats.jpg",
+    "imageCredit": "Photo from Feel Good Foodie",
+    "imageSourceUrl": "https://feelgoodfoodie.net/recipe/overnight-oats/",
+    "imagePosition": "center 50%",
+    "confidence": "High",
+    "confidenceLabel": "Source confidence",
+    "evidenceLabel": "Source notes and variations",
+    "addedAt": "2026-09-23T13:27:51+00:00"
   }
 ]
