@@ -3,30 +3,35 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="A source-linked collection of recipes reconstructed from cooking videos.">
+  <meta name="description" content="Source-linked recipes and balanced Durham takeout ideas for everyday meals.">
   <title>Food Vault</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="#">FOOD <span>VAULT</span></a>
-    <p>Recipes rescued from the scroll.</p>
+    <a class="brand" href="/#recipes">FOOD <span>VAULT</span></a>
+    <p>Good food, fewer decisions.</p>
   </header>
 
   <main>
     <section class="hero">
       <div class="hero-copy">
-        <p class="eyebrow">YOUR VIDEO RECIPE LIBRARY</p>
+        <p class="eyebrow">YOUR EVERYDAY FOOD LIBRARY</p>
         <h1>Save the dish.<br><em>Keep the recipe.</em></h1>
-        <p class="intro">Cooking videos disappear into feeds. Food Vault turns them into searchable, source-linked recipes you can actually cook.</p>
+        <p class="intro">Keep source-linked recipes within reach, and find a balanced takeout option for the nights you would rather not cook.</p>
       </div>
       <div class="hero-mark" aria-hidden="true">FV</div>
     </section>
 
-    <section class="library" aria-labelledby="library-title">
+    <nav class="section-nav" aria-label="Food collections">
+      <a href="#recipes" data-section="recipes" aria-current="page">Recipes</a>
+      <a href="#healthy-takeouts" data-section="healthy-takeouts">Healthy takeouts</a>
+    </nav>
+
+    <section id="recipes" class="library" aria-labelledby="library-title">
       <div class="toolbar">
         <div>
           <p class="eyebrow">THE COLLECTION</p>
@@ -34,22 +39,37 @@
         </div>
         <label class="search">
           <span aria-hidden="true">⌕</span>
-          <input id="search" type="search" placeholder="Search dishes, ingredients, creators…" autocomplete="off">
+          <input id="search" type="search" aria-label="Search recipes" placeholder="Search dishes, ingredients, creators…" autocomplete="off">
         </label>
       </div>
       <div id="filters" class="filters" aria-label="Recipe filters"></div>
       <div id="recipe-grid" class="recipe-grid"></div>
       <p id="empty" class="empty" hidden>No recipes match that search.</p>
+      <section class="saved-links" aria-labelledby="saved-links-title">
+        <p class="eyebrow">SAVED FOR LATER</p>
+        <h3 id="saved-links-title">Recipe links awaiting details</h3>
+        <p>These sources could not be read automatically. The links are saved, but no unverified ingredients or instructions have been added.</p>
+        <div id="saved-recipe-links"></div>
+      </section>
+    </section>
+
+    <section id="healthy-takeouts" class="library takeouts" aria-labelledby="takeout-title" hidden>
+      <p class="eyebrow">DURHAM &amp; NEARBY</p>
+      <h2 id="takeout-title">Healthy takeouts</h2>
+      <p class="section-intro">Seven easy options for a meal with protein, vegetables and a satisfying starch. These are balanced ordering ideas, not nutritional ratings.</p>
+      <p class="takeout-note">Menus and substitutions change. Check ingredients with the restaurant, choose sauces separately when useful, and refrigerate any next-day lunch promptly.</p>
+      <div id="takeout-grid" class="takeout-grid" aria-live="polite"></div>
+      <noscript>Enable JavaScript to see the saved restaurants and recipes.</noscript>
     </section>
   </main>
 
   <dialog id="recipe-dialog">
-    <button class="close" aria-label="Close recipe">×</button>
+    <div class="dialog-toolbar"><button class="close" aria-label="Close recipe">×</button></div>
     <article id="recipe-detail"></article>
   </dialog>
 
   <footer>
-    <p>Every recipe links to its original creator. Quantities inferred from video are clearly marked.</p>
+    <p>Recipes preserve their source attribution. Uncertain details are marked, and restaurant links lead to the current menu.</p>
   </footer>
 
   <script src="app.js"></script>

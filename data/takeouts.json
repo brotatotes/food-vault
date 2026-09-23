@@ -1,0 +1,65 @@
+[
+  {
+    "slug": "happy-and-hale",
+    "name": "Happy + Hale",
+    "cuisine": "Salads and grain bowls",
+    "area": "Ninth Street or University Hill, Durham",
+    "order": "Med Bowl with herb-roasted chicken, rice, greens, cucumber and tomato, or Thai Chicken Crunch for a different flavor.",
+    "tip": "Ask for dressing and crunchy toppings separately if saving a portion for lunch. These two bowls do not list beans, but other bowls do.",
+    "sourceUrl": "https://www.happyandhale.com/menu"
+  },
+  {
+    "slug": "alpaca",
+    "name": "Alpaca",
+    "cuisine": "Peruvian rotisserie chicken",
+    "area": "Ninth Street or South Square, Durham",
+    "order": "Rotisserie chicken with plain rice and house salad. A whole-chicken combo can cover dinner and a next-day lunch.",
+    "tip": "Choose vegetable sides alongside the rice, skip bean-based sides if preferred, and keep sauces separate. Check the current location menu for side availability.",
+    "sourceUrl": "https://www.alpacachicken.com/menu/"
+  },
+  {
+    "slug": "cava",
+    "name": "CAVA",
+    "cuisine": "Mediterranean bowls",
+    "area": "Southpoint, Durham",
+    "order": "Build a chicken bowl with rice, greens, cucumber, tomato and tzatziki.",
+    "tip": "Hummus and falafel are chickpea-based. Leave them out when choosing a meal without beans or chickpeas, and keep extra dressing on the side.",
+    "sourceUrl": "https://cava.com/locations/Southpoint-NC"
+  },
+  {
+    "slug": "chipotle",
+    "name": "Chipotle",
+    "cuisine": "Mexican-inspired bowls",
+    "area": "Southpoint, Durham",
+    "order": "Chicken, rice, fajita vegetables, fresh tomato salsa and lettuce, without beans.",
+    "tip": "Add vegetables rather than relying on rice alone for the base. Pack cold toppings separately from anything you plan to reheat.",
+    "sourceUrl": "https://locations.chipotle.com/nc/durham/6910-fayetteville-rd"
+  },
+  {
+    "slug": "guasaca",
+    "name": "Guasaca",
+    "cuisine": "South American bowls and arepas",
+    "area": "Erwin Square, 2200 West Main Street, Durham",
+    "order": "Build a chicken bowl with rice and available vegetable toppings, without beans.",
+    "tip": "A useful change from Mediterranean bowls. Confirm current toppings and substitutions on the restaurant menu.",
+    "sourceUrl": "https://guasaca.com/raleigh-research-triangle-guasaca-south-american-grill-food-menu"
+  },
+  {
+    "slug": "mediterranean-grill-and-grocery",
+    "name": "Mediterranean Grill & Grocery",
+    "cuisine": "Middle Eastern grill",
+    "area": "Parkwood, 5114 Revere Road, Durham",
+    "order": "Chicken kabob platter over Greek salad, with pita, baba ghanouj and stuffed grape leaves.",
+    "tip": "The platter offers a rice or Greek-salad base and two sides. The salad base adds vegetables, while pita and rice-filled grape leaves supply starch. Hummus and falafel contain chickpeas.",
+    "sourceUrl": "https://www.medgrillandgrocery.com/menu-1"
+  },
+  {
+    "slug": "namu",
+    "name": "Namu",
+    "cuisine": "Korean food",
+    "area": "Durham–Chapel Hill Boulevard, Durham",
+    "order": "Look for a rice-and-vegetable bowl with Korean BBQ protein, such as bibimbap if available, with sauce separately.",
+    "tip": "Choose a vegetable-forward bowl rather than a fries-based dish. This is a suggested order, not a confirmed current menu item. Check the ordering menu for ingredients and substitutions.",
+    "sourceUrl": "https://www.namudurham.com/"
+  }
+]

@@ -6,6 +6,22 @@ const filters = document.querySelector("#filters");
 const search = document.querySelector("#search");
 const dialog = document.querySelector("#recipe-dialog");
 const detail = document.querySelector("#recipe-detail");
+const takeoutGrid = document.querySelector("#takeout-grid");
+
+function showCollection() {
+  const section = window.location.hash === "#healthy-takeouts" ? "healthy-takeouts" : "recipes";
+  for (const id of ["recipes", "healthy-takeouts"]) {
+    document.getElementById(id).hidden = id !== section;
+  }
+  document.querySelectorAll(".section-nav a").forEach(link => {
+    if (link.dataset.section === section) link.setAttribute("aria-current", "page");
+    else link.removeAttribute("aria-current");
+  });
+  if (!dialog.open) document.title = section === "healthy-takeouts" ? "Healthy takeouts · Food Vault" : "Food Vault";
+}
+
+window.addEventListener("hashchange", showCollection);
+showCollection();
 
 const escapeHtml = value => String(value).replace(/[&<>'"]/g, char => ({
   "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;"
@@ -83,6 +99,9 @@ function openRecipe(slug, updateHistory = false) {
       ? `<a class="source-link" href="${escapeHtml(recipe.imageSourceUrl)}" target="_blank" rel="noopener">${escapeHtml(recipe.imageCredit)} ↗</a>`
       : `<span class="image-credit">${escapeHtml(recipe.imageCredit)}</span>`
     : "";
+  const additionalSources = (recipe.additionalSources || []).map(source =>
+    `<li><a class="source-link" href="${escapeHtml(source.url)}" target="_blank" rel="noopener">${escapeHtml(source.label)} ↗</a></li>`
+  ).join("");
   detail.innerHTML = `
     <section class="detail-hero" style="background-image:url('${escapeHtml(recipe.image)}');background-position:${escapeHtml(recipe.imagePosition || "center 55%")} ">
       <div class="detail-title">
@@ -98,7 +117,7 @@ function openRecipe(slug, updateHistory = false) {
           <ul>${recipe.ingredients.map(item => `<li>${escapeHtml(item)}</li>`).join("")}</ul>
         </div>
         <span class="confidence">${escapeHtml(recipe.confidenceLabel || "Draft confidence")} · ${escapeHtml(recipe.confidence)}</span><br>
-        ${sourceLink}${sourceLink && imageCredit ? "<br>" : ""}${imageCredit}
+        ${sourceLink}${additionalSources ? `<ul class="additional-sources">${additionalSources}</ul>` : ""}${sourceLink && imageCredit ? "<br>" : ""}${imageCredit}
       </div>
       <div>
         <div class="detail-block">
@@ -119,6 +138,7 @@ function closeRecipe(updateHistory = true) {
   if (dialog.open) dialog.close();
   document.title = "Food Vault";
   if (updateHistory && slugFromPath()) history.pushState({}, "", "/");
+  showCollection();
 }
 
 document.querySelector(".close").addEventListener("click", () => closeRecipe());
@@ -132,6 +152,7 @@ window.addEventListener("popstate", () => {
   const slug = slugFromPath();
   if (slug) openRecipe(slug);
   else closeRecipe(false);
+  showCollection();
 });
 
 fetch("data/recipes.json")
@@ -148,4 +169,43 @@ fetch("data/recipes.json")
   })
   .catch(error => {
     grid.innerHTML = `<p>Food Vault could not load its recipes. ${escapeHtml(error.message)}</p>`;
+  });
+
+fetch("data/takeouts.json")
+  .then(response => {
+    if (!response.ok) throw new Error(`Restaurant data failed to load: ${response.status}`);
+    return response.json();
+  })
+  .then(takeouts => {
+    takeoutGrid.innerHTML = takeouts.map(place => `
+      <article class="takeout-card" data-takeout="${escapeHtml(place.slug)}">
+        <p class="eyebrow">${escapeHtml(place.cuisine)}</p>
+        <h3>${escapeHtml(place.name)}</h3>
+        <p class="takeout-area">${escapeHtml(place.area)}</p>
+        <p class="takeout-order"><strong>Order idea</strong><br>${escapeHtml(place.order)}</p>
+        <p class="takeout-tip">${escapeHtml(place.tip)}</p>
+        <a class="source-link" href="${escapeHtml(place.sourceUrl)}" target="_blank" rel="noopener" aria-label="View ${escapeHtml(place.name)} menu and ordering">Menu &amp; ordering ↗</a>
+      </article>
+    `).join("");
+  })
+  .catch(error => {
+    takeoutGrid.innerHTML = `<p>Food Vault could not load its takeout ideas. ${escapeHtml(error.message)}</p>`;
+  });
+
+fetch("data/recipe-links.json")
+  .then(response => {
+    if (!response.ok) throw new Error(`Saved links failed to load: ${response.status}`);
+    return response.json();
+  })
+  .then(links => {
+    document.querySelector("#saved-recipe-links").innerHTML = links.map(link => `
+      <article class="saved-link" data-saved-link="${escapeHtml(link.slug)}">
+        <a href="${escapeHtml(link.sourceUrl)}" target="_blank" rel="noopener">${escapeHtml(link.title)} ↗</a>
+        <span class="saved-status">${escapeHtml(link.status)}</span>
+        <p>${escapeHtml(link.note)}</p>
+      </article>
+    `).join("");
+  })
+  .catch(error => {
+    document.querySelector("#saved-recipe-links").textContent = error.message;
   });

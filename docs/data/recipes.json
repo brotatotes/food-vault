@@ -525,12 +525,11 @@
     "title": "One-Pot Pumpkin Mushroom Rice",
     "subtitle": "Vegetarian pot or rice-cooker meal",
     "creator": "Jeeca (The Foodie Takes Flight)",
-    "platform": "Instagram",
-    "sourceUrl": "https://www.instagram.com/reel/DQE60voCTC5/",
+    "platform": "Web",
+    "sourceUrl": "https://thefoodietakesflight.com/easy-one-pot-pumpkin-mushroom-rice/",
     "image": "assets/one-pot-pumpkin-mushroom-rice.jpg",
-    "imagePosition": "50% 55%",
-    "duration": "0:54 video",
-    "time": "Not stated on screen",
+    "duration": "3 servings",
+    "time": "40 minutes + mushroom soaking",
     "tags": [
       "Asian",
       "Vegetarian",
@@ -538,33 +537,53 @@
       "Rice",
       "Dinner"
     ],
-    "confidence": "Medium",
+    "confidence": "High",
     "ingredients": [
-      "Dried shiitake mushrooms, rehydrated (soaking water reserved) (quantity not shown)",
-      "Fresh shimeji/beech mushrooms (quantity not shown)",
-      "Pumpkin, peeled and diced small (quantity not shown)",
-      "Scallions/green onions, sliced (quantity not shown)",
-      "White short-grain rice, rinsed (quantity not shown)",
-      "Cooking oil (quantity not shown)",
-      "Dark seasoning sauce, appears to be soy sauce (quantity not shown)",
-      "Reserved mushroom soaking water plus broth to cook the rice (quantity not shown)",
-      "Chili oil, to finish",
-      "Sliced green onions, to finish"
+      "0.7 oz dried shiitake mushrooms, soaked overnight or in hot water for 30 minutes, then thinly sliced. Reserve soaking water",
+      "Neutral oil, for cooking (quantity not specified)",
+      "3 cloves garlic, minced",
+      "1 green onion, sliced, white and green parts separated",
+      "1/2 lb pumpkin, peeled and cut into small chunks or cubes",
+      "1 pinch salt",
+      "5.2 oz shimeji mushrooms or other fresh mushrooms, ends trimmed and mushrooms separated",
+      "1 cup (200 g) uncooked short-grain or Japanese sushi rice, washed",
+      "1/2–1 tbsp soy sauce, to taste, with more after cooking if desired",
+      "1/2 tbsp dark soy sauce, optional, for color",
+      "1 tbsp vegetarian oyster sauce",
+      "1/2 tbsp mirin",
+      "1 cup reserved mushroom soaking water, plus 2–3 tbsp additional water if needed",
+      "Sliced green onions, to finish (quantity not specified)",
+      "Chili oil, to finish (quantity not specified)",
+      "Crispy fried shallots, to finish (quantity not specified)"
     ],
     "steps": [
-      "Rehydrate the dried shiitake mushrooms in water; reserve the flavorful soaking liquid to help cook the rice. Slice the rehydrated shiitake.",
-      "Saute the diced pumpkin with some scallions until lightly caramelized, then remove and set aside.",
-      "In the same pot, saute the sliced shiitake and shimeji mushrooms.",
-      "Rinse the rice, then add it to the bottom of the pot with the seasonings (dark soy-style sauce).",
-      "Pour in the reserved mushroom soaking water and broth to cook the rice.",
-      "Layer the sauteed pumpkin and mushrooms over the rice, cover, and cook (time depends on whether you use a pot or a rice cooker).",
-      "Finish with chili oil and sliced green onions."
+      "Soak the dried shiitake overnight, or in hot water for 30 minutes. Reserve their soaking water, then slice the mushrooms thinly.",
+      "Heat a drizzle of neutral oil in a heavy-bottomed pot over medium heat. Sauté the white parts of the green onion with the garlic for 1–2 minutes, until fragrant.",
+      "Add the pumpkin and a pinch of salt. Cook until golden and lightly charred at the edges, then remove and set aside. For firmer pumpkin, cook it for less time or skip this sauté and add it raw when layering the rice.",
+      "Sauté the shiitake and shimeji in the same pot until browned and fragrant, then set them aside with the pumpkin.",
+      "Add the washed rice, soy sauce, optional dark soy sauce, vegetarian oyster sauce, mirin and 1 cup mushroom soaking water to the pot. Mix to distribute the seasonings.",
+      "Layer the pumpkin and mushrooms over the rice without mixing. Cover and bring to a boil over medium-low heat, then reduce to low and cook for 20–22 minutes, until the rice is tender and the liquid is absorbed. If it dries out before the rice is cooked, add 2–3 tbsp water and keep steaming over low heat.",
+      "Switch off the heat and let the pot stand, covered, for 5 minutes. Alternatively, place the seasoned rice and liquid in a rice cooker, layer the pumpkin and mushrooms on top, and cook on the regular or white-rice setting.",
+      "Fluff the rice and gently mix in the vegetables. Finish with sliced green onions, chili oil and crispy fried shallots."
     ],
     "evidence": [
-      "The creator's caption describes an easy one-pot pumpkin mushroom rice that can be made in a pot or a rice cooker, and links to the full recipe on thefoodietakesflight.com.",
-      "The video directly shows rehydrating dried shiitake and reserving the soaking water, sauteing pumpkin with scallions separately from the mushrooms, rinsing the rice, layering rice with seasoning at the bottom, adding liquid, topping with pumpkin and mushrooms, covering to cook, and finishing with chili oil and green onions.",
-      "No ingredient quantities, timings, or heat levels are shown on screen. The dark seasoning appears to be soy sauce but is not labeled; the full detailed recipe is on the creator's linked website."
-    ]
+      "Updated from the creator’s full written recipe, replacing the earlier reel-only draft. The original reel remains linked below.",
+      "The source lists 15 minutes prep, 25 minutes cooking and 3 servings. Soak the shiitake overnight or in hot water for 30 minutes separately. The method also specifies a 5-minute covered rest.",
+      "Use 1 cup mushroom soaking water initially. Add 2–3 tbsp water only if the rice dries out before it is cooked. Stovetop timing is 20–22 minutes over low heat.",
+      "The written recipe confirms soy sauce, optional dark soy sauce, vegetarian oyster sauce and mirin. Neutral oil and finishing garnish quantities are not specified."
+    ],
+    "additionalSources": [
+      {
+        "label": "Watch the original reel",
+        "url": "https://www.instagram.com/reel/DQE60voCTC5/"
+      }
+    ],
+    "sourceLabel": "Read the original recipe",
+    "confidenceLabel": "Source confidence",
+    "evidenceLabel": "Source notes",
+    "imagePosition": "50% 55%",
+    "imageCredit": "Cover frame from the original reel by Jeeca",
+    "imageSourceUrl": "https://www.instagram.com/reel/DQE60voCTC5/"
   },
   {
     "slug": "poached-chicken-shallot-oil",
@@ -1175,5 +1194,126 @@
       "The reel directly instructs viewers to mash the sauce, optionally add cilantro and bird's-eye chili, simmer until thick, rinse the cooked noodles in cold water and toss them with the sauce.",
       "No noodle quantity, oil quantity, calibrated spoon size, heat level or numerical cooking time is supplied."
     ]
+  },
+  {
+    "slug": "avgolemono-soup",
+    "title": "Avgolemono Soup",
+    "subtitle": "Greek chicken, rice, lemon and egg soup",
+    "creator": "Kelly (Kelly's Clean Kitchen)",
+    "platform": "Web",
+    "sourceUrl": "https://kellyscleankitchen.com/2023/11/27/avgolemono-soup/",
+    "image": "assets/avgolemono-soup.jpg",
+    "duration": "4 servings",
+    "time": "40 minutes",
+    "tags": [
+      "Greek",
+      "Chicken",
+      "Soup",
+      "Rice",
+      "Dinner"
+    ],
+    "confidence": "High",
+    "ingredients": [
+      "1/2 lb boneless skinless chicken thighs",
+      "Salt and pepper, to season (quantity not specified)",
+      "Olive oil, for sautéing (quantity not specified)",
+      "1 onion, diced",
+      "2 carrots, diced",
+      "2 celery ribs, diced",
+      "5 cloves garlic, minced",
+      "6 cups chicken stock",
+      "1 bay leaf",
+      "3 sprigs thyme",
+      "1/2 cup jasmine rice",
+      "4 egg yolks, or 2 whole eggs",
+      "Juice of 1 1/2 fresh lemons",
+      "Minced parsley, to garnish (quantity not specified)"
+    ],
+    "steps": [
+      "Season the chicken thighs with salt and pepper, then set them aside.",
+      "Warm olive oil in a pot over medium heat. Sauté the onion, carrots and celery, salting as you go, until translucent, about 5–8 minutes. Add the garlic and cook for another 2 minutes.",
+      "Pour in the chicken stock and add the bay leaf and thyme. Season with salt and pepper. Bring to a gentle simmer, add the chicken and rice, cover and simmer over low heat for 20 minutes, until the chicken is cooked through.",
+      "Lift out the chicken, shred it with forks and return it to the pot.",
+      "Whisk the egg yolks (or whole eggs) with the lemon juice until smooth. With the soup simmering, slowly whisk hot broth into the egg mixture one ladle at a time, using 4–6 ladles to heat it gradually. The recipe specifies bringing the mixture to 160°F. Do not pour the hot broth in quickly, which can scramble the eggs.",
+      "Whisk the warmed egg mixture back into the simmering soup until combined and thickened. Taste, adjust the seasoning and finish with minced parsley."
+    ],
+    "evidence": [
+      "Adapted from the creator’s written recipe. Listed timing is 10 minutes prep and 30 minutes cooking, for 4 servings.",
+      "Salt, pepper, olive oil and parsley quantities are not specified. The source allows 2 whole eggs instead of 4 yolks.",
+      "Temper the eggs gradually with 4–6 ladles of broth. The source gives a 160°F target for the egg mixture. This does not mean eggs cannot curdle if overheated.",
+      "Food-safety note from Food Vault, not a change to the source recipe: check that the chicken reaches 165°F before shredding."
+    ],
+    "sourceLabel": "Read the original recipe",
+    "confidenceLabel": "Source confidence",
+    "evidenceLabel": "Source notes",
+    "imageCredit": "Photo from Kelly (Kelly's Clean Kitchen)",
+    "imageSourceUrl": "https://kellyscleankitchen.com/2023/11/27/avgolemono-soup/",
+    "imagePosition": "center 50%"
+  },
+  {
+    "slug": "classic-braised-taiwanese-beef-stew",
+    "title": "Classic Braised Taiwanese Beef Stew",
+    "subtitle": "紅燒牛肉 · Short ribs, potatoes and carrots",
+    "creator": "Tiffy Cooks",
+    "platform": "Web",
+    "sourceUrl": "https://tiffycooks.com/classic-braised-taiwanese-beef-stew/",
+    "image": "assets/classic-braised-taiwanese-beef-stew.jpg",
+    "duration": "6 servings",
+    "time": "About 3 hours",
+    "tags": [
+      "Taiwanese",
+      "Beef",
+      "Stew",
+      "Dinner"
+    ],
+    "confidence": "High",
+    "ingredients": [
+      "3 lb boneless beef short ribs, cut into 2-inch pieces",
+      "4 slices ginger, optional, for blanching",
+      "2 green onions, optional, for blanching",
+      "1 tbsp Sichuan peppercorns, optional, for blanching",
+      "1/4 cup Chinese cooking wine, used in the blanching step",
+      "Cold water, enough to cover the beef for blanching",
+      "Cooking oil, for browning (quantity not specified)",
+      "1 large onion, sliced",
+      "8 cloves garlic, smashed",
+      "3 large potatoes, peeled and cubed",
+      "2 large carrots, peeled and cut into chunks",
+      "6 cups beef stock (the instructions also allow water)",
+      "3 bay leaves",
+      "4–5 star anise pods, optional, for stewing",
+      "2 tsp Sichuan peppercorns, optional, for stewing",
+      "4 1/2 tbsp soy sauce",
+      "2 tbsp dark soy sauce",
+      "2 tbsp tomato paste",
+      "1 1/2 tbsp spicy fermented bean paste (doubanjiang)",
+      "1–2 tbsp sugar or rock sugar",
+      "2 tbsp cornstarch, optional, for thickening",
+      "4 tbsp water, for the optional cornstarch slurry",
+      "Cooked rice, to serve (quantity not specified)"
+    ],
+    "steps": [
+      "Put the beef in a pot with the Chinese cooking wine and, if using, the 4 ginger slices, 2 green onions and 1 tbsp Sichuan peppercorns. Add enough cold water to cover.",
+      "Bring to a simmer over medium heat and cook for 5–10 minutes, skimming off scum. Drain the beef, rinse it under cold water, pat dry and set aside.",
+      "Heat cooking oil in a large pot. Add the beef and brown it on all sides for 2–3 minutes.",
+      "Add the sliced onion and sauté for 3–4 minutes, until softened and fragrant. Stir in the smashed garlic and cook for another 30 seconds.",
+      "Stir in the tomato paste, doubanjiang, soy sauce, dark soy sauce and sugar. Cook for 2–3 minutes, stirring frequently.",
+      "Add the 6 cups beef stock (or water), bay leaves and the optional stewing spices: 2 tsp Sichuan peppercorns and 4–5 star anise pods. Stir well and bring to a simmer.",
+      "Lower the heat to medium-low, cover and braise for 2–3 hours. Stir every 30 minutes to keep the bottom from sticking.",
+      "Add the potatoes and carrots. Cover and cook until they are tender, about 20 minutes.",
+      "For a thicker sauce, mix the optional 2 tbsp cornstarch with 4 tbsp water, stir the slurry into the stew and cook until it reaches the desired consistency. Serve hot over rice."
+    ],
+    "evidence": [
+      "Adapted from Tiffy Cooks’ written recipe and ingredient card. The source lists 6 servings and about 3 hours, without a prep-time estimate. Allow additional time if needed for blanching, browning and the vegetable stage.",
+      "This recipe contains doubanjiang, a spicy fermented bean paste. It is not bean-free. The ingredient is retained rather than silently substituted.",
+      "Blanching uses 1 tbsp optional Sichuan peppercorns. Stewing uses a separate 2 tsp optional Sichuan peppercorns. The cooking wine goes into the blanching water.",
+      "Beef shank or brisket can replace the short ribs according to the source. Cooking oil and serving rice have no stated quantities. The cornstarch slurry is optional."
+    ],
+    "sourceLabel": "Read the original recipe",
+    "confidenceLabel": "Source confidence",
+    "evidenceLabel": "Source notes",
+    "imageCredit": "Photo from Tiffy Cooks",
+    "imageSourceUrl": "https://tiffycooks.com/classic-braised-taiwanese-beef-stew/",
+    "imagePosition": "center 50%"
   }
 ]
