@@ -19,7 +19,7 @@ class CollectionTests(unittest.TestCase):
         self.links = json.loads((ROOT / 'data/recipe-links.json').read_text())
 
     def test_counts_and_complete_recipes(self):
-        self.assertEqual(len(self.recipes), 31)
+        self.assertEqual(len(self.recipes), 32)
         for recipe in self.recipes:
             self.assertTrue(recipe['ingredients'])
             self.assertTrue(recipe['steps'])
@@ -48,8 +48,8 @@ class CollectionTests(unittest.TestCase):
         for recipe in self.recipes:
             self.assertIsNotNone(datetime.fromisoformat(recipe['addedAt']).utcoffset())
         ordered = sorted(self.recipes, key=lambda recipe: datetime.fromisoformat(recipe['addedAt']), reverse=True)
-        self.assertEqual([recipe['slug'] for recipe in ordered[:6]], [
-            '3-ingredient-chia-pudding', 'easy-overnight-oats',
+        self.assertEqual([recipe['slug'] for recipe in ordered[:7]], [
+            'cheng-chili', '3-ingredient-chia-pudding', 'easy-overnight-oats',
             'nepali-style-chicken-chukauni', 'taiwanese-pork-rib-daikon-soup',
             'avgolemono-soup', 'classic-braised-taiwanese-beef-stew'
         ])
@@ -116,7 +116,7 @@ class CollectionTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             (root / 'data').mkdir()
-            link = {'slug': 'duplicate', 'title': 'Duplicate', 'sourceUrl': self.recipes[0]['sourceUrl'], 'status': 'Pending', 'note': 'Test fixture'}
+            link = {'slug': 'duplicate', 'title': 'Duplicate', 'sourceUrl': next(r['sourceUrl'] for r in self.recipes if r.get('sourceUrl')), 'status': 'Pending', 'note': 'Test fixture'}
             (root / 'data/recipe-links.json').write_text(json.dumps([link]))
             with patch.object(build, 'ROOT', root):
                 with self.assertRaisesRegex(ValueError, 'duplicate saved source'):
