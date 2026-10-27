@@ -1,5 +1,52 @@
 [
   {
+    "slug": "home-bulgogi",
+    "title": "Weeknight Beef Bulgogi",
+    "subtitle": "Shaved beef in bottled bulgogi sauce, seared hot with onion and green onion",
+    "creator": "Eric",
+    "platform": "Home recipe",
+    "image": "assets/home-bulgogi.jpg",
+    "imagePosition": "55% 62%",
+    "imageCredit": "Photo: Andy Li, via Wikimedia Commons · CC0",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bulgogi_(Marinated_beef._Served_with_rice)_-_Kogi_2023-09-11.jpg",
+    "duration": "Serves 2–3",
+    "time": "About 45 minutes",
+    "tags": [
+      "Korean",
+      "Beef",
+      "Dinner",
+      "Quick",
+      "Stir-fry"
+    ],
+    "confidence": "Home recipe",
+    "confidenceLabel": "Recipe status",
+    "ingredients": [
+      "1 lb shaved beef steak",
+      "1/4 to 1/3 cup bottled bulgogi sauce, plus 2 tbsp set aside for the end",
+      "1/2 yellow onion, thinly sliced",
+      "3 to 4 green onions, whites cut into 1-inch pieces and greens thinly sliced",
+      "1 tbsp neutral oil",
+      "2 cloves garlic, minced, optional",
+      "Sesame seeds, optional",
+      "Rice, for serving"
+    ],
+    "steps": [
+      "Separate the beef slices into a bowl. Add the sauce, sliced onion, green onion whites and garlic if using, then mix by hand so every slice is coated. Marinate at least 30 minutes. Start the rice now.",
+      "Heat a heavy skillet or cast iron over high heat with the oil until very hot, about 2 minutes.",
+      "Lift out half the beef and onion, letting excess marinade drip off. Spread in a single layer and leave it about 1 minute to brown, then toss and cook 1 to 2 minutes more until no pink remains. Set aside and repeat with the second half.",
+      "Return everything to the pan, add the 2 tbsp of reserved fresh sauce and toss for 30 seconds to glaze.",
+      "Top with the green onion greens and sesame seeds, and serve over rice. Discard the leftover marinade the raw beef sat in."
+    ],
+    "evidenceLabel": "Kitchen notes",
+    "evidence": [
+      "Use enough sauce to coat every slice without leaving it in a pool. Bottled sauces vary in strength, so follow the bottle's per-pound amount if it lists one.",
+      "Cook in batches and drain the marinade first. Crowding or extra liquid makes the beef steam and turn gray instead of searing.",
+      "Thin shaved beef only needs 30 minutes. Marinate no more than about 24 hours, since bulgogi marinades with pear or kiwi can make the meat mushy.",
+      "Garlic is optional because most bottled sauces already contain it. Bell pepper is left out because it does not suit the dish."
+    ],
+    "addedAt": "2026-10-27T21:58:56+00:00"
+  },
+  {
     "slug": "cheng-chili",
     "title": "Cheng Chili",
     "subtitle": "A friend's flexible beef or turkey chili, seasoned to taste",
