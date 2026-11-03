@@ -1,5 +1,55 @@
 [
   {
+    "slug": "seafood-boil-sauce",
+    "title": "Homemade Seafood Boil Sauce",
+    "subtitle": "Garlic butter Cajun sauce with shrimp, sausage, corn and potatoes",
+    "creator": "Esther Lee (@biteswithesther)",
+    "platform": "Instagram",
+    "sourceUrl": "https://www.instagram.com/reel/Ddeid0GRG0L/",
+    "image": "assets/seafood-boil-sauce.jpg",
+    "imagePosition": "50% 50%",
+    "duration": "1:42 video",
+    "time": "Amounts for boil items not given",
+    "tags": [
+      "Cajun",
+      "Seafood",
+      "Shrimp",
+      "Dinner"
+    ],
+    "confidence": "High for the sauce",
+    "ingredients": [
+      "Sauce: 4 whole heads garlic, minced",
+      "Sauce: 2 cups unsalted butter",
+      "Sauce: 2 tbsp each garlic powder, onion powder, paprika, salt-free lemon pepper seasoning, salt-free Cajun seasoning, Old Bay and brown sugar",
+      "Sauce: 1 tsp MSG",
+      "Sauce: 2 cups chicken broth",
+      "Sauce: salt to taste",
+      "Salt-free Cajun seasoning: 1 tbsp smoked paprika, 2 tsp garlic powder, 1 tsp each black pepper, white pepper, onion powder, dried oregano and cayenne, 1/2 tsp dried thyme",
+      "For the boil: raw peeled shrimp, quantity not given",
+      "For the boil: andouille sausage, sliced into coins, quantity not given",
+      "For the boil: corn on the cob and baby potatoes, quantity not given",
+      "Optional: crab legs, shown on the finished platter, cooking not shown"
+    ],
+    "steps": [
+      "Mince the garlic.",
+      "Melt the butter in a wide pan until foaming.",
+      "Add the garlic and cook for 2 to 3 minutes.",
+      "Add all the dry seasonings and the MSG. Stir into a thick paste.",
+      "Pour in the chicken broth and simmer until glossy. Taste and add salt.",
+      "Meanwhile, boil the corn and potatoes in a separate pot until tender. Sear the sausage coins in a skillet until browned.",
+      "Move the corn, potatoes and sausage into the sauce.",
+      "Add the shrimp to the simmering sauce and spoon sauce over them until they turn pink and cooked through. Serve with extra sauce for dipping."
+    ],
+    "evidence": [
+      "Sauce and Cajun seasoning amounts come straight from the creator's caption.",
+      "The 2 to 3 minute garlic time appears on screen.",
+      "Amounts and boil times for the shrimp, sausage, corn and potatoes are not given.",
+      "Crab legs appear only on the finished platter. How they were cooked is not shown.",
+      "Cover image is a frame from the creator's reel."
+    ],
+    "addedAt": "2026-11-03T05:58:31+00:00"
+  },
+  {
     "slug": "mongolian-beef-pan-fried-noodle",
     "title": "Mongolian Beef Pan-Fried Noodles",
     "creator": "Aila Lin (@cookingwithaila)",
