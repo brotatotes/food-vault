@@ -1,5 +1,51 @@
 [
   {
+    "slug": "mongolian-beef-pan-fried-noodle",
+    "title": "Mongolian Beef Pan-Fried Noodles",
+    "creator": "Aila Lin (@cookingwithaila)",
+    "platform": "Instagram",
+    "sourceUrl": "https://www.instagram.com/reel/DfQjGxuGy8t/",
+    "image": "assets/mongolian-beef-pan-fried-noodle.jpg",
+    "imagePosition": "50% 58%",
+    "duration": "0:33 video",
+    "time": "Under 20 minutes, per the reel",
+    "tags": [
+      "Taiwanese-style",
+      "Beef",
+      "Noodles",
+      "Dinner"
+    ],
+    "confidence": "Low",
+    "ingredients": [
+      "Sliced beef, quantity not shown",
+      "Soy sauce or a similar dark sauce, for the marinade, quantity not shown",
+      "Cooking oil",
+      "Minced garlic, likely, a small amount",
+      "Red onion, cut into chunks",
+      "A white granular seasoning, likely sugar, quantity not shown",
+      "Fresh yellow wheat or egg noodles, quantity not shown",
+      "A dark stir-fry sauce, exact sauce not named",
+      "Green onions, cut into long pieces"
+    ],
+    "steps": [
+      "Marinate the sliced beef with soy sauce, massaging it in by hand.",
+      "Heat oil in a wok until very hot. Sear the beef until browned, then remove it.",
+      "Add a little more oil and the minced garlic to the wok.",
+      "Return the beef and add the red onion. Sprinkle in the white seasoning, likely sugar.",
+      "Add the fresh noodles on top, then pour in the dark sauce.",
+      "Toss over high heat until the noodles are coated, glossy and darkened.",
+      "Add the green onions, toss briefly and serve."
+    ],
+    "evidence": [
+      "The reel shows the cooking but gives no quantities or sauce names. The creator sends the full recipe by DM to people who comment 'recipe'.",
+      "Ingredients and order come from watching the video. Garlic and sugar are visual guesses.",
+      "The creator says the name comes from Taiwan's Mongolian barbecue style of cooking.",
+      "Cover image is a frame from the creator's reel."
+    ],
+    "addedAt": "2026-11-03T05:56:05+00:00",
+    "subtitle": "Wok-tossed beef, red onion and noodles"
+  },
+  {
     "slug": "home-bulgogi",
     "title": "Weeknight Beef Bulgogi",
     "subtitle": "Shaved beef in bottled bulgogi sauce, seared hot with onion and green onion",
