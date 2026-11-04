@@ -1750,5 +1750,51 @@
     "confidenceLabel": "Source confidence",
     "evidenceLabel": "Source notes and variations",
     "addedAt": "2026-09-23T13:27:51+00:00"
+  },
+  {
+    "slug": "brioche-loaf",
+    "title": "Brioche Loaf",
+    "subtitle": "Soft pull-apart buttery bread baked in a loaf pan",
+    "creator": "Kneadaspoonful (@kneadaspoonful)",
+    "platform": "Instagram",
+    "sourceUrl": "https://www.instagram.com/reel/DfQM1qcMYuv/",
+    "image": "assets/brioche-loaf.jpg",
+    "imagePosition": "50% 50%",
+    "duration": "0:18 video",
+    "time": "About 3½ to 4 hours, mostly proofing",
+    "tags": [
+      "Bread",
+      "Baking",
+      "Brioche",
+      "Weekend project"
+    ],
+    "confidence": "High",
+    "ingredients": [
+      "350 g bread flour or all-purpose flour",
+      "40 g sugar (about 3 tablespoons)",
+      "2 tsp active dry yeast",
+      "1 tsp salt",
+      "120 ml warm milk",
+      "3 large eggs, at room temperature",
+      "100 g unsalted butter, softened and cut into cubes",
+      "A little extra butter for greasing the pan and brushing the baked loaf"
+    ],
+    "steps": [
+      "Mix the dry ingredients. In a mixing bowl or stand mixer, combine the flour, sugar, yeast and salt.",
+      "Add the wet ingredients. Pour in the warm milk and crack in the eggs, then mix until everything comes together.",
+      "Work in the butter. Add the softened butter cubes gradually. Knead with a stand mixer or by hand until the dough is smooth, stretchy and shiny.",
+      "First proof. Put the dough in a greased bowl, cover it tightly with plastic wrap and let it rise in a warm place for 1½ to 2 hours, until doubled.",
+      "Shape. Gently deflate the dough and divide it into equal pieces. Roll each into a smooth ball and arrange them side by side in a buttered loaf pan.",
+      "Second proof. Cover the pan and let the dough rise another 45 to 60 minutes, until the buns puff up and merge together.",
+      "Bake. Bake in an oven preheated to 180°C (350°F) for 25 to 30 minutes, until the top is deep golden brown.",
+      "Finish. Right after it comes out of the oven, brush a little extra butter over the hot loaf for a glossy, softer crust."
+    ],
+    "evidence": [
+      "All amounts, times and the oven temperature come straight from the creator's caption.",
+      "The caption doesn't give a number of dough pieces. The video shows six balls in the pan.",
+      "The finished loaf in the video looks glossy, as if egg-washed, but the caption only mentions brushing with butter after baking.",
+      "Cover image is a frame from the creator's reel."
+    ],
+    "addedAt": "2026-11-04T04:24:03+00:00"
   }
 ]
